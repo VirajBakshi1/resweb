@@ -1,0 +1,53 @@
+[semihtml]<p>The following terms and conditions will be deemed to have been accepted by the User on usage of the website https://coeprobotics.com/portalbeta/<br />
+As a User you are requested to read them carefully before you use the services of this site.</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>This Portal is exclusively for RSC present members and alumni.</strong></h2>
+
+<h3><span style="font-size:1.2em;"><strong>Username Must be in format &lt;first name in small&gt;_&lt;last name in small&gt;&lt;passout year YY&gt;If Your Name is &quot;John Connor&quot; and Passout Year &quot;2018&quot; then username will be john_connor18</strong></span></h3>
+
+<p>&nbsp;</p>
+
+<p><strong>The invalid usernames will be rejected or not activated</strong></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+1. The term User shall refer to the user who browses the site and should be present or past member of RSC. The term RSC shall refer to Robot Study Circle.&nbsp;</p>
+
+<p><br />
+2. By using the Site, you agree to follow and be bound by the following terms and conditions concerning your use of the Site. RSC may revise the Terms of Use at any time without notice to you. Areas of the Site may have different terms of use posted. If there is a conflict between the Terms of Use and terms of use posted for a specific area of the Site, the latter shall have precedence with respect to your use of that area of the Site.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>3. The Information available on this site is the property of RSC and is for the use of its Members only. The Information displayed on the Site being confidential, sensitive and proprietary to RSC may not be circulated, disclosed or given to any person, in any form, who is not an member of RSC.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>4. RSC may terminate User&#39;s access at any time for any reason. RSC may monitor access to the Site.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>5. RSC does not make any warranties, express or implied, including, without limitation, those of merchantability and fitness for a particular purpose, with respect to any information, data, statements or products made available on the Site.&nbsp;</p>
+
+<p><br />
+6.&nbsp; RSC shall have no responsibility for any damage to User&#39;s computer system or loss of data that results from the download of any content, materials, information from the Site.&nbsp;</p>
+
+<p><br />
+7. RSC may change or discontinue any aspect of its website at any time, including, its content or features. RSC reserves the right to change the terms and conditions applicable to use of the Site. Such changes shall be effective immediately upon notice, which shall be placed on the Site.&nbsp;</p>
+
+<p><br />
+8. The information contained in the Site has been obtained from sources believed to be reliable. RSC disclaims all warranties as to the accuracy, completeness or adequacy of such information.&nbsp;</p>
+
+<p><br />
+9. RSC makes no warranty that: (a) the Site will meet your requirements; (b) the Site will be available on an uninterrupted, timely, secure, or error-free basis; &copy; the results that may be obtained from the use of the Site or any services offered through the Site will be accurate or reliable.&nbsp;</p>
+
+<p><br />
+<strong>Terms &amp; Conditions for Discussion Forums:&nbsp;</strong>&nbsp;</p>
+
+<p><br />
+You agree not to post any abusive, obscene, vulgar, slanderous, hateful, threatening, sexually-orientated or any other material that may violate any laws be it of your country, the country where &quot;Discussion Forums&quot; is hosted or International Law. Doing so may lead to you being immediately and permanently banned, with notification to the appropriate authority in RSC, if deemed required by us. The IP address of all posts are recorded to aid in enforcing these conditions.</p>
+
+<p><br />
+You agree that &quot;Discussion Forums&quot; have the right to remove, edit, move or close any topic at any time should we see fit. As a user, you agree to any information you have entered to being stored in a database. While this information will not be disclosed to any third party without your consent, neither &quot;Discussion Forums&quot; nor cms provider shall be held responsible for any hacking attempt that may lead to the data being compromised.&nbsp;&nbsp; &nbsp;</p>[/semihtml]

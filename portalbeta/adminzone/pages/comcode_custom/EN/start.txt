@@ -1,0 +1,33 @@
+[semihtml][title sub="You are in the Admin Zone"]Admin Dashboard[/title]
+<h2>Tasks</h2>
+
+<div class="float_surrounder comcode_fake_table">
+<div style="float: left; width: 60%">[block]main_staff_checklist[/block]</div>
+
+<div style="padding-left: 3.00%; float: left; width: 37%">[block]main_staff_new_version[/block]{+START,IF,{$CNS}}[block param="Reported posts forum,Staff" title="Staff forum" limit="3" failsafe="1"]main_forum_topics[/block]{+END}[block]main_staff_tips[/block]{+START,IF,{$ADDON_INSTALLED,syndication_blocks}}{$BLOCK,block=side_rss,param={$BRAND_BASE_URL}/backend.php?mode=news&amp;type=rss&amp;select=1-10&amp;days=100,title=Composr news,cache=1,defer=1}{+END}</div>
+</div>
+&nbsp;
+
+<h2>Latest activity <span style="  font-size: 0.8em;">(<a class="user_link" href="{$BASE_URL*}/adminzone/index.php?page=admin-actionlog">more</a>)</span></h2>
+
+<div class="float_surrounder comcode_fake_table">
+<div style="float: left; width: 60%">[block]main_staff_actions[/block]</div>
+
+<div style="padding-left: 3.00%; float: left; width: 37%">[block]main_db_notes[/block]</div>
+</div>
+&nbsp;
+
+<h2>Other Websites</h2>
+
+<div class="float_surrounder comcode_fake_table">
+<div style="float: left; width: 60%">[block]main_staff_website_monitoring[/block]
+<h3>Recommend Composr</h3>
+Know someone who needs a website? <a class="user_link" href="{$BASE_URL*}/index.php?page=recommend&amp;cms=1">Recommend Composr</a> and they&#39;ll be sent a link to your own site too.<br />
+&nbsp;
+<h3>Sponsors</h3>
+
+<div class="vertical_alignment">Check out our <a class="user_link" href="{$BASE_URL*}/adminzone/index.php?page=admin-version">sponsors</a>. We love them <img alt=":wub:" class="top_vertical_alignment" src="{$BASE_URL*}/themes/default/images/cns_emoticons/wub.png" />.</div>
+</div>
+
+<div style="padding-left: 3.00%; float: left; width: 37%">[block]main_staff_links[/block]</div>
+</div>[/semihtml]

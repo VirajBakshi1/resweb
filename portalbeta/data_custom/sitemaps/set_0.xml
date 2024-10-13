@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.coeprobotics.com/portalbeta/index.php?page=start</loc>
+        <lastmod>2017-10-20T08:26:51+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <url>
+        <loc>https://www.coeprobotics.com/portalbeta/index.php?page=join</loc>
+        <lastmod>2017-10-20T04:58:15+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.coeprobotics.com/portalbeta/index.php?page=login</loc>
+        <lastmod>2017-10-20T04:58:15+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.coeprobotics.com/portalbeta/index.php?page=lost-password</loc>
+        <lastmod>2017-10-20T04:58:15+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>http://www.coeprobotics.com/portalbeta/index.php?page=recommend</loc>
+        <lastmod>2017-10-20T04:58:15+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.coeprobotics.com/portalbeta/index.php?page=start</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.00</priority>
+    </url>
+</urlset>

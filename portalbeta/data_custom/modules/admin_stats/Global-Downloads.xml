@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://www.coeprobotics.com/portalbeta/themes/default/css/svg.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024.00 400.00" preserveAspectRatio="xMinYMin meet" width="1024.00" height="400.00" version="1.1">
+<script>// <![CDATA[
+if (typeof window.addEventListenerAbstract=='undefined') addEventListenerAbstract=function(element,the_event,command,capture)
+{
+    if(element)
+    {
+        if (typeof element.simulated_events=='undefined') element.simulated_events=[];
+        if (typeof element.simulated_events[the_event]=='undefined') element.simulated_events[the_event]=[];
+        element.simulated_events[the_event].push(command);
+
+        if(typeof element.addEventListener!='undefined')
+        {
+            return element.addEventListener(the_event,command,capture);
+        }
+        else if(typeof element.attachEvent!='undefined')
+        {
+            return element.attachEvent("on"+the_event,command);
+        }
+        else return false;
+    }
+    else return false;
+};
+//]]></script>
+<script xlink:href="https://www.coeprobotics.com/portalbeta/themes/admin/templates_cached/EN/global_ssl.js" />
+<text x="50.00" y="10.00" class="axis_marker_text">1</text>
+<line x1="75.00" y1="10.00" x2="100.00" y2="10.00" class="axis_marker" />
+<line x1="100.00" y1="10.00" x2="1024.00" y2="10.00" class="axis_background_line" />
+<text x="50.00" y="374.00" class="axis_marker_text">0</text>
+<line x1="50.00" y1="374.00" x2="1024.00" y2="374.00" class="axis_line" />
+<text x="102.00" y="387.00" class="axis_text">Title</text>
+<line x1="100.00" y1="0.00" x2="100.00" y2="387.00" class="axis_line" />
+<text transform="translate(50.00,374.00) rotate(270)" class="axis_text">Downloads</text>
+<line x1="100.00" y1="10.00" x2="1024.00" y2="10.00" class="average_line" />
+<rect id="102.0010.00_bar" x="102.00" y="10.00" width="15.00" height="364.00" style="fill: #333333;" class="bar_chart" />
+<text style="fill: white; font-weight: normal" id="102.0010.00" transform="translate(113.00,360.00) rotate(270)" class="bar_chart_text">Keil uVision Crack (#1)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("102.0010.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("102.0010.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("102.0010.00").de_clarify=function(event) { document.getElementById("102.0010.00").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("102.0010.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("102.0010.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("102.0010.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("102.0010.00_bar").de_clarify=function(event) { document.getElementById("102.0010.00").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("102.0010.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+</svg>

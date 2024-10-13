@@ -1,0 +1,14 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^coeprobotics\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.coeprobotics\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^docs10\/\/?(.*)$ "https\:\/\/compo\.sr\/docs10\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^coeprobotics\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.coeprobotics\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^mail$ "https\:\/\/coeprobotics\.com\/mymail" [R=301,L]
