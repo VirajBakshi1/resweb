@@ -1,3 +1,0 @@
-<p>
-	{!DOWNLOAD_ATTACHMENT,<a href="{FULL*}">{FILENAME*}</a>,{CLEAN_SIZE*},{NUM_DOWNLOADS*}}
-</p>

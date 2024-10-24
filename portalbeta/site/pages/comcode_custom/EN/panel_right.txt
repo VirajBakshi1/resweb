@@ -1,1 +1,0 @@
-[semihtml][block]side_calendar[/block][block]side_news_categories[/block][block]side_stats[/block][block]side_tag_cloud[/block][block]side_users_online[/block][/semihtml]

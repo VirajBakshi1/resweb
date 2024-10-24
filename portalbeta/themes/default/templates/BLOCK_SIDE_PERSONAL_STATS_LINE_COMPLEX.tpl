@@ -1,1 +1,0 @@
-<li>{KEY*}: {VALUE}</li>

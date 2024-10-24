@@ -1,3 +1,0 @@
-{TITLE}
-
-{$PARAGRAPH,{TEXT*}}

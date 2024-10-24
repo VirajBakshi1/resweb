@@ -1,3 +1,0 @@
-<?php
-return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_5c9285b247ae14.62291291_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:20:\"BREADCRUMB_SEPARATOR\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_5c9285b247ae14.62291291_1\";s:268:\"\$tpl_funcs['tcpfunc_5c9285b247ae14.62291291_1']=\$KEEP_TPL_FUNCS['tcpfunc_5c9285b247ae14.62291291_1']=recall_named_function('5c9285b247aea5.48271590','\$parameters,\$cl',\"echo \\\"<span class=\\\\\\\"sep\\\\\\\"><span class=\\\\\\\"accessibility_hidden\\\\\\\"> &rarr;</span></span> \\\";\");\";}}");
-

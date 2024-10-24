@@ -1,3 +1,0 @@
-<?php
-return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_5c9e16e9896170.21061121_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:19:\"NOTIFICATION_POLLER\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_5c9e16e9896170.21061121_1\";s:373:\"\$tpl_funcs['tcpfunc_5c9e16e9896170.21061121_1']=\$KEEP_TPL_FUNCS['tcpfunc_5c9e16e9896170.21061121_1']=recall_named_function('5c9e16e98962a6.36238753','\$parameters,\$cl',\"echo \\\"<script>// <![CDATA[\\\\n	add_event_listener_abstract(window,'load',function() {\\\\n		notification_poller_init(\\\",\\n	ecv_FROM_TIMESTAMP(\\\$cl,array(10),array()),\\n	\\\");\\\\n	});\\\\n// ]]></script>\\\\n\\\";\");\";}}");
-

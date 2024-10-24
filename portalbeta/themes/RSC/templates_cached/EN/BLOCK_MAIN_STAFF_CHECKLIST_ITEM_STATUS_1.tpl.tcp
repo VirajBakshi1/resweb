@@ -1,3 +1,0 @@
-<?php
-return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_5eecbb84a7cb70.17017429_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:40:\"BLOCK_MAIN_STAFF_CHECKLIST_ITEM_STATUS_1\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_5eecbb84a7cb70.17017429_1\";s:327:\"\$tpl_funcs['tcpfunc_5eecbb84a7cb70.17017429_1']=\$KEEP_TPL_FUNCS['tcpfunc_5eecbb84a7cb70.17017429_1']=recall_named_function('5eecbb84a7ce50.34095702','\$parameters,\$cl',\"echo \\\"<img src=\\\\\\\"\\\",\\n	ecv_IMG(\\\$cl,array(1),array(\\\"checklist/checklist1\\\",\\\"0\\\",\\\"RSC\\\")),\\n	\\\"\\\\\\\" title=\\\\\\\"Completed\\\\\\\" alt=\\\\\\\"Completed\\\\\\\" />\\\";\");\";}}");
-

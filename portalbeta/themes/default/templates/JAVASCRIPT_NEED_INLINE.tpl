@@ -1,4 +1,0 @@
-<script>// <![CDATA[
-	{CODE/}
-//]]></script>
-

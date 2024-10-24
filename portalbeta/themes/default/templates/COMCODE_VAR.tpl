@@ -1,1 +1,0 @@
-<var>{CONTENT}</var>
