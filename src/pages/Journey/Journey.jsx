@@ -2,11 +2,11 @@ import React from 'react';
 
 const timelineData = [
   {
-    title: 'Event 1  (2021)',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?',
+    title: '2021',
+    description: 'fjsdlkfjdslkfjslkdfj',
   },
   {
-    title: 'Event 2 (2022)',
+    title: 'E2022',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, facilis.',
   },
   {
