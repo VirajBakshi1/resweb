@@ -1,41 +1,133 @@
-import React from 'react';
-import ImageGrid from '../../components/ImageGrid';
+import React, { useState } from 'react';
+import data from '../../data.json';
 
-const Mindspark = () => {
-  const imageArray = [
-    '/src/assets/robocon/Screenshot 2024-10-21 at 12.53.54 PM.png', // Replace with actual images related to Robocon
-    'src/assets/robocon/Screenshot 2024-10-21 at 12.55.57 PM.png',
-    'src/assets/robocon/Screenshot 2024-10-21 at 12.56.52 PM.png',
+const PhotoWithInfo = ({ image, index }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const titles = [
+    "ABU ROBOCON THEME 2022",
+    "National Competition Highlights",
+    "Engineering Excellence"
+  ];
+  const descriptions = [
+    "Experience the traditional game of Lagori in a modern robotics context.",
+    "Showcasing India's best robotics talent at the national level.",
+    "Promoting innovation and technical expertise in robotics."
   ];
 
   return (
+    <div className="relative group h-full"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Animated border gradient */}
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 
+        opacity-30 group-hover:opacity-100 transition duration-500 blur group-hover:blur-md"></div>
+      
+      {/* Main card container */}
+      <div className="relative h-full bg-black border-l-2 border-t-2 border-blue-500/30">
+        {/* Decorative corner pieces */}
+        <div className="absolute -top-1 -right-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-500">
+          <div className="absolute top-0 right-0 w-4 h-4 bg-black transform rotate-45 
+            translate-x-1/2 -translate-y-1/2"></div>
+        </div>
+        
+        {/* Image container with overlay */}
+        <div className="relative h-52 overflow-hidden">
+          <img
+            src={image}
+            alt={titles[index]}
+            className="w-full h-full object-cover transition-all duration-500
+              transform group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent 
+            transition-opacity duration-300" />
+        </div>
+
+        {/* Content section */}
+        <div className="p-6">
+          <h3 className="text-lg font-bold mb-3 bg-gradient-to-r from-cyan-400 via-blue-400 
+            to-purple-400 bg-clip-text text-transparent group-hover:bg-gradient-to-l 
+            transition-all duration-1000">
+            {titles[index]}
+          </h3>
+          <p className="text-blue-100/70 group-hover:text-blue-100 transition-colors duration-300">
+            {descriptions[index]}
+          </p>
+        </div>
+
+        {/* Bottom accent line with animation */}
+        <div className="absolute bottom-0 left-0 w-full h-0.5 overflow-hidden">
+          <div className={`h-full bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 
+            transform transition-transform duration-500 ${isHovered ? 'translate-x-0' : '-translate-x-full'}`} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const ContentSection = ({ section }) => (
+  <div className="relative group">
+    {/* Animated border gradient */}
+    <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 
+      opacity-30 group-hover:opacity-100 transition duration-500 blur group-hover:blur-md"></div>
+    
+    {/* Main content container */}
+    <div className="relative bg-black border-l-2 border-t-2 border-blue-500/30 p-8">
+      {/* Decorative corner piece */}
+      <div className="absolute -top-1 -right-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-500">
+        <div className="absolute top-0 right-0 w-4 h-4 bg-black transform rotate-45 
+          translate-x-1/2 -translate-y-1/2"></div>
+      </div>
+
+      {section.title && (
+        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-blue-400 
+          to-purple-400 bg-clip-text text-transparent group-hover:bg-gradient-to-l 
+          transition-all duration-1000">
+          {section.title}
+        </h2>
+      )}
+      <p className="text-blue-100/70 group-hover:text-blue-100 transition-colors duration-300 
+        leading-relaxed">
+        {section.content}
+      </p>
+
+      {/* Bottom accent line */}
+      <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r 
+        from-transparent via-blue-500 to-transparent opacity-50"></div>
+    </div>
+  </div>
+);
+
+const Mindspark = () => {
+  const { imageArray, sections } = data.Organising.Mindspark;
+
+  return (
     <div className="min-h-screen bg-black text-white p-4 py-12">
-        <h1 className="text-6xl text-blue-300 font-bold mb-6 text-center">MINDSPARK</h1>
+      <div className="max-w-6xl mx-auto">
+        {/* Main title with glow effect */}
+        <h1 className="text-6xl font-bold text-center mb-16">
+          <span className="relative inline-block">
+            <span className="absolute inset-0  opacity-50"></span>
+            <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
+              to-purple-400 bg-clip-text text-transparent">
+              MINDSPARK
+            </span>
+          </span>
+        </h1>
 
-      <div className="max-w-6xl bg-gray-800 p-8 mx-auto rounded-lg border-2">
-        <p className="mb-4">
-          Robocon is an International Competition organized by ABU (Asia-Pacific Broadcasting Union). This competition is based on various themes in which two robots, one manual and one autonomous, are used to complete a certain set of tasks. The contestants in the competition are undergraduate students who need significant expertise in the fields of Mechanical, Electronics, and Software Engineering to accomplish the given tasks.
-        </p>
+        {/* Images Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          {imageArray.map((image, index) => (
+            <PhotoWithInfo key={index} image={image} index={index} />
+          ))}
+        </div>
 
-        <ImageGrid images={imageArray} />
-
-        <h2 className="text-2xl font-bold mt-8 mb-4">ABU ROBOCON THEME 2022 Delhi, INDIA</h2>
-        <p className="mb-4">
-          Lagori is a traditional and one of the most played ancient games that originate in the southern part of India. It was one of the most popular games in India around the 1990s. One can find the game history in Bhagavata Purana, a Hindu religious text written around 5000 years ago. It mentions that Lord Krishna played this game with his friends. The game is between two teams (Team 1: “Seeker” and Team 2: “Hitter”) and the game starts by throwing a ball by the seeker to break a stone tower called “Lagori” (see figure below). While the seekers try to pile up the stones again, the hitter throws balls to interrupt them.
-        </p>
-
-        <h2 className="text-2xl font-bold mt-8 mb-4">National DD-Robocon 2022, IIT Delhi</h2>
-        <p className="mb-4">
-          IIT Delhi is hosting Doordarshan (DD) Robocon 2022 on July 17, 2022 (Sunday). The winning team of DD-Robocon 2022, which follows the same game rules as of ABU Robocon 2022, will represent India.
-        </p>
-
-        <p className="mb-4">
-          The event is aimed to encourage the scientific temperament of undergraduate engineering students of the country. It gives a platform to the students to innovate, to create, and to work in a team comprising of students belonging to various streams of engineering. On the other hand, at the international level, it gives an opportunity to the students to interact with their counterparts belonging to various participating countries. Further, it strengthens the spirit of sportsmanship, brotherhood, and showcases unity and cultural exchange among the countries of the Asia-Pacific Region.
-        </p>
-
-        <p className="mb-4">
-          IIT Delhi hosts DD-Robocon 2022 on behalf of Doordarshan (DD).
-        </p>
+        {/* Content Sections */}
+        <div className="space-y-8">
+          {sections.map((section, index) => (
+            <ContentSection key={index} section={section} />
+          ))}
+        </div>
       </div>
     </div>
   );

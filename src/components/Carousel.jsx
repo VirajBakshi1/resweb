@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React,{ useState, useEffect, useRef } from "react";
 import CarouselImage1 from '../assets/carouselImages/image1.png'
 
 const CarouselFadeExample = () => {
@@ -25,8 +25,41 @@ const CarouselFadeExample = () => {
     setCurrentSlide(index);
   };
 
+  const [isVisible, setIsVisible] = useState(false); // State to track visibility
+  const sectionRef = useRef(null);
+
+  // Using IntersectionObserver to detect when section is visible
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.disconnect(); // Stop observing after the section becomes visible
+          }
+        });
+      },
+      { threshold: 0.1 } // Trigger when 10% of the section is in view
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="relative w-full bg-black p-1" data-carousel="slide">
+    <div
+    ref={sectionRef}
+    className={`relative w-full bg-black p-1 transform transition-all duration-1000 ease-out ${
+      isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+    }`} 
+    data-carousel="slide">
       {/* Carousel wrapper */}
       <div className="relative h-56 overflow-hidden rounded-lg md:h-[600px]">
         {/* Image Slides */}

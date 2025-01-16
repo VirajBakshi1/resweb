@@ -1,84 +1,123 @@
-import React from 'react';
+import React, { useState } from 'react';
+import data from '../../data.json';
 
-const sponsorsData = [
-  {
-    name: 'JANATICS PNEUMATIC',
-    logo: 'src/assets/sponsors/janatics.png', // Replace with the actual path to the logo
-    website: 'https://www.janatics.com', // Replace with the actual website URL
-  },
-  {
-    name: 'PEPPERL + FUCHS',
-    logo: 'src/assets/sponsors/pepperl.png', // Replace with the actual path to the logo
-    website: 'https://www.pepperl-fuchs.com', // Replace with the actual website URL
-  },
-  {
-    name: 'ROBOT TECHNOLOGIES',
-    logo: 'src/assets/sponsors/Robotechnologies.png', // Replace with the actual path to the logo
-    website: 'https://www.robottechnologies.com', // Replace with the actual website URL
-  },
-  {
-    name: 'SIEMENS',
-    logo: 'src/assets/sponsors/simens.png', // Replace with the actual path to the logo
-    website: 'https://www.siemens.com', // Replace with the actual website URL
-  },
-];
+const SponsorCard = ({ sponsor }) => {
+  const [isHovered, setIsHovered] = useState(false);
 
-const affiliates = [
-  {
-    name: 'JANATICS PNEUMATIC',
-    logo: 'src/assets/sponsors/janatics.png', // Replace with the actual path to the logo
-    website: 'https://www.janatics.com', // Replace with the actual website URL
-  },
-  {
-    name: 'PEPPERL + FUCHS',
-    logo: 'src/assets/sponsors/pepperl.png', // Replace with the actual path to the logo
-    website: 'https://www.pepperl-fuchs.com', // Replace with the actual website URL
-  },
-  {
-    name: 'ROBOT TECHNOLOGIES',
-    logo: 'src/assets/sponsors/Robotechnologies.png', // Replace with the actual path to the logo
-    website: 'https://www.robottechnologies.com', // Replace with the actual website URL
-  },
-  {
-    name: 'SIEMENS',
-    logo: 'src/assets/sponsors/simens.png', // Replace with the actual path to the logo
-    website: 'https://www.siemens.com', // Replace with the actual website URL
-  },
-];
+  return (
+    <a
+      href={sponsor.website}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group relative"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Animated border gradient */}
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 
+        opacity-30 group-hover:opacity-100 transition duration-500 blur group-hover:blur-md"></div>
+      
+      {/* Main card container */}
+      <div className="relative bg-black border-l-2 border-t-2 border-blue-500/30 p-8 h-full">
+        {/* Decorative corner pieces */}
+        <div className="absolute -top-1 -right-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-500">
+          <div className="absolute top-0 right-0 w-4 h-4 bg-black transform rotate-45 
+            translate-x-1/2 -translate-y-1/2"></div>
+        </div>
+        <div className="absolute -bottom-1 -left-1 w-8 h-8 bg-gradient-to-bl from-blue-500 to-purple-600">
+          <div className="absolute bottom-0 left-0 w-4 h-4 bg-black transform rotate-45 
+            -translate-x-1/2 translate-y-1/2"></div>
+        </div>
+
+        {/* Logo container with hover effects */}
+        <div className="relative mb-6 group-hover:transform group-hover:scale-110 
+          transition-all duration-500">
+          <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-blue-500 
+            to-purple-600 opacity-30 blur transition-all duration-500 
+            group-hover:opacity-75"></div>
+          <div className="relative p-4 bg-black">
+            <img 
+              src={sponsor.logo} 
+              alt={sponsor.name} 
+              className="h-24 w-auto mx-auto filter brightness-90 group-hover:brightness-110 
+                transition-all duration-300"
+            />
+          </div>
+        </div>
+
+        {/* Sponsor name with gradient text */}
+        <h2 className="text-center text-xl font-bold bg-gradient-to-r from-cyan-400 
+          via-blue-400 to-purple-400 bg-clip-text text-transparent 
+          group-hover:bg-gradient-to-l transition-all duration-1000">
+          {sponsor.name}
+        </h2>
+
+        {/* Visit website text with animated arrow */}
+        <div className="absolute inset-x-0 bottom-0 h-12 flex items-center justify-center 
+          opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <span className="text-blue-300 flex items-center space-x-2">
+            <span>Visit Website</span>
+            <svg 
+              className="w-4 h-4 transform group-hover:translate-x-1 transition-transform 
+                duration-300" 
+              fill="none" 
+              viewBox="0 0 24 24" 
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+                d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </a>
+  );
+};
 
 const Sponsors = () => {
-  return (
-    <div className="bg-black p-4 text-white py-10">
-      <h1 className="text-center text-6xl text-blue-300 font-bold mb-8">OUR SPONSORS</h1>
-      <div className="container mx-auto  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {sponsorsData.map((sponsor, index) => (
-          <a
-            key={index}
-            href={sponsor.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gray-800 border-2 backdrop-blur-md p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 flex flex-col items-center justify-center"
-          >
-            <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-auto mb-4 mx-auto" />
-            <h2 className="text-center text-lg">{sponsor.name}</h2>
-          </a>
+  const sponsors = data["Sponsors&Affiliates"].sponsors;
+  const affiliates = data["Sponsors&Affiliates"].affiliates;
+
+  const renderSection = (title, items) => (
+    <div className="relative">
+      {/* Section title with glow effect */}
+      <h1 className="text-center text-6xl font-bold mb-16">
+        <span className="relative inline-block">
+          <span className="absolute inset-0 bg-gradient-to-r from-cyan-600 via-blue-600 
+            to-purple-600 blur-md opacity-50"></span>
+          <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
+            to-purple-400 bg-clip-text text-transparent">
+            {title}
+          </span>
+        </span>
+      </h1>
+
+      {/* Grid layout */}
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
+        gap-8 mb-16">
+        {items.map((item, index) => (
+          <SponsorCard key={index} sponsor={item} />
         ))}
       </div>
-      <hr className="my-8" />
-      <h1 className="text-center text-6xl text-blue-300 font-bold mt-8 mb-8">OUR AFFILIATIONS</h1>
-      <div className="container mx-auto  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {affiliates.map((affiliates, index) => (
-          <a
-            key={index}
-            href={affiliates.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gray-800 border-2 backdrop-blur-md p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 flex flex-col items-center justify-center"
-          >
-            <img src={affiliates.logo} alt={affiliates.name} className="h-24 w-auto mb-4 mx-auto" />
-            <h2 className="text-center text-lg">{affiliates.name}</h2>
-          </a>
-        ))}
+    </div>
+  );
+
+  return (
+    <div className="relative min-h-screen bg-black p-4 py-16">      
+      <div className="relative z-10">
+        {/* Sponsors Section */}
+        {renderSection("OUR SPONSORS", sponsors)}
+
+        {/* Holographic divider */}
+        <div className="relative w-2/3 mx-auto h-px my-24">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent 
+            via-blue-500 to-transparent animate-pulse"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent 
+            via-purple-500 to-transparent animate-pulse delay-75"></div>
+        </div>
+
+        {/* Affiliates Section */}
+        {renderSection("OUR AFFILIATIONS", affiliates)}
       </div>
     </div>
   );

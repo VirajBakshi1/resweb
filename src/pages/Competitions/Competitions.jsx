@@ -1,74 +1,155 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ImageGrid from '../../components/ImageGrid';
+import data from '../../data.json';
 
-// Data for robotics competitions
-const competitionsData = [
-  {
-    year: 2024,
-    title: 'ABU ROBOCON THEME 2024',
-    description: `Robocon is an International Competition organized by ABU (Asia-Pacific Broadcasting Union). This competition is based on various themes in which two robots, one manual and one autonomous, are used to complete a certain set of tasks. The contestants in the competition are undergraduate students who need significant expertise in the fields of Mechanical, Electronics, and Software Engineering to accomplish the given tasks.`,
-    details: `This year's theme focuses on innovative designs that challenge teams to push the limits of robotics and engineering.`,
-    images: [
-      "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-  "https://www.ripplesnigeria.com/wp-content/uploads/2024/08/images-23-1.jpeg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3wcmPATKyfJuapccpoU1UlCE4yiwhb1aYD-_Rqd4d7Ltulc6rVbb9_cx7hNVTgw409o&usqp=CAU",
-    ]
-  },
-  {
-    year: 2023,
-    title: 'FIRST Robotics Competition 2023',
-    description: `The FIRST Robotics Competition is an international high school robotics competition that combines the excitement of sport with the rigors of science and technology. Teams of students build and program robots to compete in a series of challenges.`,
-    details: `In 2023, teams designed robots to compete in a game called 'Charged Up', where they must score points by moving game pieces into designated areas.`,
-    images: [
-      "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-      "https://www.ripplesnigeria.com/wp-content/uploads/2024/08/images-23-1.jpeg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3wcmPATKyfJuapccpoU1UlCE4yiwhb1aYD-_Rqd4d7Ltulc6rVbb9_cx7hNVTgw409o&usqp=CAU",
-    ]
-  },
-  {
-    year: 2022,
-    title: 'RoboCup 2022',
-    description: `RoboCup is an international robotics competition that aims to promote robotics and AI research. The competition features various leagues, including soccer, rescue, and industrial robots.`,
-    details: `In 2022, RoboCup hosted its first hybrid competition in Bordeaux, France, where teams participated both in-person and virtually.`,
-    images: [
-      "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-  "https://www.ripplesnigeria.com/wp-content/uploads/2024/08/images-23-1.jpeg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3wcmPATKyfJuapccpoU1UlCE4yiwhb1aYD-_Rqd4d7Ltulc6rVbb9_cx7hNVTgw409o&usqp=CAU",
-  
-    ]
-  },
-  {
-    year: 2021,
-    title: 'VEX Robotics Competition 2021',
-    description: `The VEX Robotics Competition provides students with an exciting platform to learn and apply STEM principles. Teams design and build robots to compete in games against other teams.`,
-    details: `The 2021 competition introduced new challenges focused on collaboration and strategy in a virtual format due to pandemic restrictions.`,
-    images: [
-      '/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png',
-      '/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png',
-      '/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png',
-    ]
-  },
-  // Add more competitions as needed
-];
+const EventCard = ({ competition }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  return (
+    <div className="relative group">
+      {/* Animated border gradient */}
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 
+        opacity-30 group-hover:opacity-100 transition duration-500 blur group-hover:blur-md"></div>
+      
+      {/* Main card container */}
+      <div className="relative bg-gradient-to-b from-gray-900 to-black border-l-2 border-t-2 
+        border-blue-500/30 p-8"
+        style={{
+          transform: isExpanded ? 'scale(1.02)' : 'scale(1)',
+          transition: 'transform 0.5s ease-out'
+        }}>
+        {/* Decorative corner pieces */}
+        <div className="absolute -top-1 -right-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-500">
+          <div className="absolute top-0 right-0 w-4 h-4 bg-black transform rotate-45 
+            translate-x-1/2 -translate-y-1/2"></div>
+        </div>
+        <div className="absolute -bottom-1 -left-1 w-8 h-8 bg-gradient-to-bl from-blue-500 to-purple-600">
+          <div className="absolute bottom-0 left-0 w-4 h-4 bg-black transform rotate-45 
+            -translate-x-1/2 translate-y-1/2"></div>
+        </div>
+
+        {/* Title with animated gradient */}
+        <h2 
+          className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 
+            to-purple-400 bg-clip-text text-transparent group-hover:bg-gradient-to-l 
+            transition-all duration-1000 mb-6 cursor-pointer flex items-center justify-between"
+          onClick={() => setIsExpanded(!isExpanded)}
+        >
+          <span>{competition.title} ({competition.year})</span>
+          <div className="relative">
+            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 
+              opacity-75 blur-sm rounded-full transition-opacity duration-300 
+              group-hover:opacity-100"></div>
+            <svg 
+              className={`w-8 h-8 relative transform transition-transform duration-500 ${
+                isExpanded ? 'rotate-180' : ''
+              }`} 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+        </h2>
+
+        {/* Expandable content */}
+        <div 
+          className={`transition-all duration-700 ease-in-out overflow-hidden ${
+            isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-32 opacity-70'
+          }`}
+        >
+          {/* Description with glow effect */}
+          <div className="relative mb-8">
+            <p className="text-blue-100/90 leading-relaxed group-hover:text-blue-100 
+              transition-colors duration-300">
+              {competition.description}
+            </p>
+          </div>
+
+          {/* Image grid with hover effects */}
+          <div className="relative group-hover:transform group-hover:scale-[1.01] 
+            transition-all duration-500">
+            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-blue-500 
+              to-purple-600 opacity-30 blur transition-all duration-500"></div>
+            <div className="relative">
+              <ImageGrid images={competition.images} />
+            </div>
+          </div>
+
+          {/* Event details section */}
+          <div className="mt-8">
+            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 
+              bg-clip-text text-transparent">
+              Event Details
+            </h3>
+            <p className="text-gray-300/90 group-hover:text-gray-300 transition-colors duration-300">
+              {competition.details}
+            </p>
+          </div>
+        </div>
+
+        {/* Expand/Collapse button */}
+        <button 
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="relative mt-6 group/btn"
+        >
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-500 
+            opacity-50 group-hover/btn:opacity-100 transition duration-300 blur"></div>
+          <div className="relative px-4 py-2 bg-black leading-none flex items-center">
+            <span className="text-blue-400 group-hover/btn:text-blue-300 transition duration-300">
+              {isExpanded ? 'Show Less' : 'Read More'}
+            </span>
+          </div>
+        </button>
+
+        {/* Bottom accent line */}
+        <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r 
+          from-transparent via-blue-500 to-transparent opacity-50"></div>
+      </div>
+    </div>
+  );
+};
 
 const Competitions = () => {
-  return (
-    <div className="min-h-screen bg-black text-white p-4 py-12">
-      <h1 className="text-5xl text-blue-300 font-bold mb-6 text-center">COMPETITIONS</h1>
+  const competitions = data.Competitions.CompetitionsData;
+  const currentYear = new Date().getFullYear();
 
-      {competitionsData.map((competition, index) => (
-        <div key={index} className="max-w-6xl bg-gray-800 p-8 mx-auto rounded-lg border-2 mb-12">
-          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-4">
-            {competition.title} ({competition.year})
-          </h2>
-          <p className="mb-4">{competition.description}</p>
-          
-          <ImageGrid images={competition.images} />
-          
-          <h3 className="text-2xl font-bold mt-8 mb-4">Event Details</h3>
-          <p className="mb-4">{competition.details}</p>
+  return (
+    <div className="relative min-h-screen bg-black p-4 py-12">
+      {/* Animated background grid */}
+      <div className="fixed inset-0 bg-[url('/grid.svg')] bg-center 
+        [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] pointer-events-none" />
+      
+      <div className="relative z-10">
+        {/* Glowing orb decorations */}
+        <div className="absolute top-20 left-20 w-32 h-32 bg-blue-500 rounded-full 
+          blur-3xl opacity-20 animate-pulse" />
+        <div className="absolute top-40 right-20 w-40 h-40 bg-purple-500 rounded-full 
+          blur-3xl opacity-20 animate-pulse" />
+
+        {/* Main title with animated gradient */}
+        <h1 className="text-7xl font-bold text-center mb-16">
+          <span className="relative inline-block">
+            <span className="absolute inset-0  opacity-50"></span>
+            <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
+              to-purple-400 bg-clip-text text-transparent">
+              COMPETITIONS
+            </span>
+          </span>
+        </h1>
+
+        {/* Competition cards */}
+        <div className="max-w-6xl mx-auto space-y-12">
+          {competitions.map((competition, index) => (
+            <EventCard
+              key={index}
+              competition={competition}
+            />
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 };

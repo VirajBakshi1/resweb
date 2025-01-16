@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone, FaFacebook, FaInstagram } from 'react-icons/fa'
+import '../../data.json'
 
 const ContactUs = () => {
   return (

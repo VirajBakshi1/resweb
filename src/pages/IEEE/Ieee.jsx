@@ -55,4 +55,4 @@ const IEEE = () => {
   );
 };
 
-export default IEEE;
+export default IEEE ;
