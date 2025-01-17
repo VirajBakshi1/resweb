@@ -4,27 +4,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    sourcemap: true,
     rollupOptions: {
-      external: [
-        'react', 
-        'react-dom',
-        'lucide-react',
-        'framer-motion'
-      ],
+      external: [], // Remove the externals
       output: {
-        globals: {
-          'react': 'React',
-          'react-dom': 'ReactDOM',
-          'lucide-react': 'lucide',
-          'framer-motion': 'framerMotion'
+        manualChunks: {
+          'vendor': ['react', 'react-dom', 'lucide-react', 'framer-motion']
         }
       }
-    }
-  },
-  resolve: {
-    alias: {
-      'react': 'react',
-      'react-dom': 'react-dom'
     }
   },
   test: {
