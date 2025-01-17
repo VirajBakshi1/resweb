@@ -8,7 +8,8 @@ export default defineConfig({
       external: [
         'react', 
         'react-dom',
-        'lucide-react'  // Added this line
+        'lucide-react',
+        'framer-motion'  // Added this line
       ]
     }
   },
