@@ -5,7 +5,11 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react', 'react-dom'] // Add more dependencies if needed
+      external: [
+        'react', 
+        'react-dom',
+        'lucide-react'  // Added this line
+      ]
     }
   },
   test: {
