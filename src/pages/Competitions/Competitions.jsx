@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from '../../../node_modules/react';
 import ImageGrid from '../../components/ImageGrid';
 import data from '../../data.json';
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from '../../../node_modules/react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone, FaFacebook, FaInstagram } from 'react-icons/fa'
 import '../../data.json'
 

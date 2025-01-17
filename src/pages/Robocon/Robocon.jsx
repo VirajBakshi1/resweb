@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../node_modules/react';
 import ImageGrid from '../../components/ImageGrid';
 import data from '../../data.json';
 

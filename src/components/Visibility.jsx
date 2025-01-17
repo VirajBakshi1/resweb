@@ -1,6 +1,6 @@
 // src/hooks/useVisibilityObserver.js
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from '../../../node_modules/react';
 
 const useVisibilityObserver = (threshold = 0.1) => {
   const [isVisible, setIsVisible] = useState(false);

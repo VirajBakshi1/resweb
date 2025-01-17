@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../node_modules/react';
 import CarouselFadeExample from '../../components/Carousel';
 
 const AboutUs = () => {

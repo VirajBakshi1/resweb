@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from '../../../node_modules/react';
 import backgroundImage from '../assets/heroimage.png';
 import { Helmet } from 'react-helmet';
 import rscwhitelogo from '../assets/rscwhitelogo.png';

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../node_modules/react';
 import { FaLightbulb, FaCog, FaBullhorn } from 'react-icons/fa';
 import useVisibilityObserver from './Visibility';
 import data from '../data.json';

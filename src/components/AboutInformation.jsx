@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from '../../../node_modules/react';
 
 const AboutInformation = () => {
   const [isVisible, setIsVisible] = useState(false); // State to track visibility

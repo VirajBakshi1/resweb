@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../node_modules/react';
 import ProfileCard from '../../components/ProfileCard';
 import data from '../../data.json';
 

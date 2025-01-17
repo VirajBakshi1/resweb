@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from '../../../node_modules/react';
 import { useInView } from 'react-intersection-observer';
 import { Calendar, Award, Rocket, Lightbulb, Globe } from 'lucide-react';
 import data from '../../data.json';

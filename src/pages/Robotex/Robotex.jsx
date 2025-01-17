@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from '../../../node_modules/react';
 import data from '../../data.json';
 
 const PhotoWithInfo = ({ image, title, description }) => {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from '../../../node_modules/react';
 
 // Array of carousel data with images and information
 const carouselData = [
