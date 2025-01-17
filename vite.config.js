@@ -9,8 +9,22 @@ export default defineConfig({
         'react', 
         'react-dom',
         'lucide-react',
-        'framer-motion'  // Added this line
-      ]
+        'framer-motion'
+      ],
+      output: {
+        globals: {
+          'react': 'React',
+          'react-dom': 'ReactDOM',
+          'lucide-react': 'lucide',
+          'framer-motion': 'framerMotion'
+        }
+      }
+    }
+  },
+  resolve: {
+    alias: {
+      'react': 'react',
+      'react-dom': 'react-dom'
     }
   },
   test: {
