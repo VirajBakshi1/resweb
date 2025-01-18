@@ -1,4 +1,4 @@
-import React, { useState } from '../../../node_modules/react';
+import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import coepwhitelogo from '../assets/coepwhitelogo.png';
 import rscwhitelogo from '../assets/rscwhitelogo.png';

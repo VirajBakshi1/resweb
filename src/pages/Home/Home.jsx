@@ -1,4 +1,4 @@
-import React from '../../../node_modules/react';
+import React from 'react';
 import CarouselFadeExample from '../../components/Carousel';
 import AboutInformation from '../../components/AboutInformation';
 import NewsSection from '../../components/News';

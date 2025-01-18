@@ -1,4 +1,4 @@
-import React, { useState } from '../../../node_modules/react';
+import React, { useState } from 'react';
 import data from '../../data.json';
 
 const SponsorCard = ({ sponsor }) => {
@@ -35,11 +35,11 @@ const SponsorCard = ({ sponsor }) => {
           <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-blue-500 
             to-purple-600 opacity-30 blur transition-all duration-500 
             group-hover:opacity-75"></div>
-          <div className="relative p-4 bg-black">
+          <div className="relative p-4 bg-white">
             <img 
               src={sponsor.logo} 
               alt={sponsor.name} 
-              className="h-24 w-auto mx-auto filter brightness-90 group-hover:brightness-110 
+              className="h-24 w-auto mx-auto filter object-contain brightness-90 group-hover:brightness-100 
                 transition-all duration-300"
             />
           </div>
@@ -83,8 +83,7 @@ const Sponsors = () => {
       {/* Section title with glow effect */}
       <h1 className="text-center text-6xl font-bold mb-16">
         <span className="relative inline-block">
-          <span className="absolute inset-0 bg-gradient-to-r from-cyan-600 via-blue-600 
-            to-purple-600 blur-md opacity-50"></span>
+          <span className="absolute inset-0  blur-md opacity-50"></span>
           <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
             to-purple-400 bg-clip-text text-transparent">
             {title}
@@ -116,8 +115,7 @@ const Sponsors = () => {
             via-purple-500 to-transparent animate-pulse delay-75"></div>
         </div>
 
-        {/* Affiliates Section */}
-        {renderSection("OUR AFFILIATIONS", affiliates)}
+    
       </div>
     </div>
   );

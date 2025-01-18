@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from '../../../node_modules/react';
+import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import data from '../../data.json';
 

@@ -1,4 +1,4 @@
-import React, { useState } from '../../../node_modules/react';
+import React, { useState } from 'react';
 import data from '../../data.json';
 
 const PhotoWithInfo = ({ image, title, description }) => {
@@ -121,8 +121,7 @@ const TRS = () => {
         {/* Main title with glow effect */}
         <h1 className="text-6xl font-bold text-center mb-16">
           <span className="relative inline-block">
-            <span className="absolute inset-0 bg-gradient-to-r from-cyan-600 via-blue-600 
-              to-purple-600 blur-lg opacity-50"></span>
+            <span className="absolute inset-0  blur-lg opacity-50"></span>
             <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
               to-purple-400 bg-clip-text text-transparent">
               The Robotics Society

@@ -1,4 +1,4 @@
-import React, { useEffect } from '../../../node_modules/react';
+import React, { useEffect } from 'react';
 import Card from '../../components/GlassCard';
 import data from '../../data.json';
 

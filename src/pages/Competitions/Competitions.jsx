@@ -1,4 +1,4 @@
-import React, { useState } from '../../../node_modules/react';
+import React, { useState } from 'react';
 import ImageGrid from '../../components/ImageGrid';
 import data from '../../data.json';
 
@@ -130,15 +130,16 @@ const Competitions = () => {
           blur-3xl opacity-20 animate-pulse" />
 
         {/* Main title with animated gradient */}
-        <h1 className="text-7xl font-bold text-center mb-16">
-          <span className="relative inline-block">
-            <span className="absolute inset-0  opacity-50"></span>
-            <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
-              to-purple-400 bg-clip-text text-transparent">
-              COMPETITIONS
-            </span>
-          </span>
-        </h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-16">
+  <span className="relative inline-block">
+    <span className="absolute inset-0 opacity-50"></span>
+    <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
+      to-purple-400 bg-clip-text text-transparent">
+      COMPETITIONS
+    </span>
+  </span>
+</h1>
+
 
         {/* Competition cards */}
         <div className="max-w-6xl mx-auto space-y-12">

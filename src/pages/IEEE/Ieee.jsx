@@ -1,58 +1,114 @@
-import React from '../../../node_modules/react';
+import React from 'react';
+import { Cpu, BookOpen, Award, Newspaper } from 'lucide-react';
+import data from '../../data.json';
+
+const ContentSection = ({ title, children, icon: Icon }) => (
+  <div className="relative group mb-8">
+    {/* Animated border gradient */}
+    <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 
+      opacity-30 group-hover:opacity-100 transition duration-500 blur group-hover:blur-md"></div>
+    
+    {/* Main container */}
+    <div className="relative bg-black/80 border-l-2 border-t-2 border-blue-500/30 p-8">
+      {/* Corner decorations */}
+      <div className="absolute -top-1 -right-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-500">
+        <div className="absolute top-0 right-0 w-4 h-4 bg-black transform rotate-45 
+          translate-x-1/2 -translate-y-1/2"></div>
+      </div>
+      <div className="absolute -bottom-1 -left-1 w-8 h-8 bg-gradient-to-bl from-blue-500 to-purple-600">
+        <div className="absolute bottom-0 left-0 w-4 h-4 bg-black transform rotate-45 
+          -translate-x-1/2 translate-y-1/2"></div>
+      </div>
+
+      {/* Title section */}
+      {title && (
+        <div className="flex items-center space-x-3 mb-6">
+          {Icon && <Icon className="w-6 h-6 text-cyan-400" />}
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 
+            to-purple-400 bg-clip-text text-transparent group-hover:bg-gradient-to-l 
+            transition-all duration-1000">
+            {title}
+          </h2>
+        </div>
+      )}
+
+      {/* Content */}
+      <div className="text-blue-100/70 group-hover:text-blue-100 transition-colors 
+        duration-300 leading-relaxed space-y-6">
+        {children}
+      </div>
+
+      {/* Animated borders */}
+      <div className="absolute top-0 left-0 w-0.5 h-0 bg-gradient-to-b from-cyan-500 
+        to-blue-500 group-hover:h-full transition-all duration-700"></div>
+      <div className="absolute bottom-0 right-0 w-0.5 h-0 bg-gradient-to-t from-blue-500 
+        to-purple-600 group-hover:h-full transition-all duration-700"></div>
+    </div>
+  </div>
+);
+
+const PaperList = ({ papers }) => (
+  <div className="space-y-4">
+    {papers.map((paper, index) => (
+      <div key={index} className="relative pl-6 border-l border-cyan-500/30">
+        <div className="absolute left-0 top-0 w-2 h-2 -translate-x-1/2 
+          bg-cyan-400 rounded-full"></div>
+        <h3 className="text-cyan-400 font-semibold mb-1">{paper}</h3>
+      </div>
+    ))}
+  </div>
+);
 
 const IEEE = () => {
+  const ieeeData = data.StudentChapter.IEEE;
+
   return (
-    <div className="min-h-screen bg-black text-white py-12 px-6">
-      {/* Logo and Heading */}
-      <div className="flex flex-col items-center">
+    <div className="min-h-screen bg-black text-white py-16 px-4">
+      <div className="max-w-6xl mx-auto">
+        {/* Enhanced title section */}
+        <div className="relative mb-16 text-center">
+          <h1 className="text-6xl font-bold">
+            <span className="relative inline-block">
+              {/* Multiple layered glows */}
+              <span className="absolute inset-0 bg-gradient-to-r from-cyan-600/50 via-blue-600/50 
+                to-purple-600/50 blur-2xl opacity-80"></span>
+              <span className="absolute inset-0 bg-gradient-to-r from-cyan-400/30 via-blue-400/30 
+                to-purple-400/30 blur-xl"></span>
+              <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 
+                bg-clip-text text-transparent">
+                IEEE
+              </span>
+            </span>
+          </h1>
+          {/* Decorative line */}
+          <div className="absolute left-1/2 -bottom-8 w-24 h-1 -translate-x-1/2 
+            bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
+        </div>
 
-        <h1 className="text-6xl text-blue-300 font-bold mb-4 text-center">IEEE</h1>
-      </div>
+        {/* Introduction Section */}
+        <ContentSection icon={Cpu}>
+          {ieeeData.introduction.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </ContentSection>
 
-      {/* Introduction */}
-      <div className="max-w-7xl mx-auto border-2 bg-gray-800 p-6 rounded-lg shadow-lg">
-        <p className="leading-relaxed text-lg mb-6">
-          In the last few years, robotics activities in India have moved well beyond the traditional areas of industrial applications, atomic energy, etc., and entered newer domains of education, rehabilitation, entertainment, and even into our homes. Indian robotics researchers have similarly grown from a handful to over a hundred, engaged in research labs, education, industry, atomic energy, and more.
-        </p>
+        {/* Activities Section */}
+        <ContentSection title="Activities" icon={BookOpen}>
+          <p>{ieeeData.activities.description}</p>
+        </ContentSection>
 
-        <p className="leading-relaxed text-lg mb-6">
-          Many of us feel that it is about time to form an academic society to further augment our robotics activities and foster better interaction among ourselves. With this objective, researchers got together to form a society on 10th July 2011. Officially, The Robotics Society was registered on June 21, 2017.
-        </p>
+        {/* Paper Publications Section */}
+        <ContentSection title={ieeeData.activities.airEvents.title} icon={Award}>
+          <PaperList papers={ieeeData.activities.airEvents.events} />
+        </ContentSection>
 
-        <p className="leading-relaxed text-lg mb-6">
-          Note that in some of the earlier documents, "Robotics Society of India (RSI)" might be mentioned, which should be read as “The Robotics Society,” the registered name of the society.
-        </p>
-      </div>
-
-      {/* Activities Section */}
-      <div className="max-w-7xl mx-auto border-2 bg-gray-800 p-6 mt-10 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-semibold mb-4">Activities</h2>
-        <p className="leading-relaxed text-lg mb-6">
-          The Robotics Society organizes a main event every year around the month of July. The events are Advances in Robotics (AIR) and Workshop on Robotics, held alternatively.
-        </p>
-
-        {/* AIR Events */}
-        <h3 className="text-2xl font-bold mb-4">Advances in Robotics (AIR)</h3>
-        <p className="leading-relaxed text-lg mb-6">
-          Advances in Robotics (AIR) is an international conference of The Robotics Society, held every two years. Below are the details of past AIR events:
-        </p>
-
-        <ul className="list-disc list-inside text-lg space-y-2">
-          <li>AIR2013 at R&DE, DRDO, Pune during July 4-6, 2013</li>
-          <li>AIR2015 at BITS Pilani Goa Campus, Goa during July 2-4, 2015</li>
-          <li>AIR2017 at IIT Delhi, New Delhi, during June 28 – July 1, 2017</li>
-          <li>AIR2019 at IIT Madras, Chennai, during July 2-6, 2019</li>
-          <li>AIR2021 at IIT Kanpur, Kanpur during June 30 - July 4, 2021 (fully online)</li>
-        </ul>
-
-        {/* Workshops */}
-        <h3 className="text-2xl font-bold mt-8 mb-4">Workshops on Robotics</h3>
-        <p className="leading-relaxed text-lg">
-          Workshops on Robotics and its Applications are held every alternate year, focusing on specific thrust areas of robotics.
-        </p>
+        {/* Workshops Section */}
+        <ContentSection title={ieeeData.activities.workshops.title} icon={Newspaper}>
+          <p>{ieeeData.activities.workshops.description}</p>
+        </ContentSection>
       </div>
     </div>
   );
 };
 
-export default IEEE ;
+export default IEEE;
