@@ -31,8 +31,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<VideoPreloader />} />
-        <Route path="/home" element={<Home />} />
+
+        <Route path="/" element={<Home />} />
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/journey" element={<Journey />} />
         <Route path="/projects" element={<Projects />} />
