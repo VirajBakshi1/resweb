@@ -21,7 +21,7 @@ const VideoPreloader = () => {
           onEnded={handleVideoEnd}
           className="w-full h-full object-cover"
         >
-          <source src="/src/assets/preloader/rsc-intro.mp4" type="video/mp4" />
+          <source src="https://www.coeprobotics.com/assets/video/rsc-intro.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       )}
