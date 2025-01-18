@@ -98,8 +98,7 @@ const ConferenceSection = ({ conference }) => {
       {/* Conference title with glow effect */}
       <h2 className="text-3xl font-bold text-center mb-12">
         <span className="relative inline-block">
-          <span className="absolute inset-0 bg-gradient-to-r from-cyan-600 via-blue-600 
-            to-purple-600 blur-md opacity-50"></span>
+          <span className="absolute inset-0 blur-md opacity-50"></span>
           <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
             to-purple-400 bg-clip-text text-transparent">
             {conference.conference}
