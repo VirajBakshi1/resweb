@@ -23,7 +23,6 @@ import Gallery2024 from './pages/Gallery/2024/Gallery2024';
 import AwardsPage from './pages/Awardspage/Awardspage';
 import MediaCoveragePage from './pages/MediaCoverage/MediaCoveragePage';
 import FTC from './pages/FTC/FTC';
-import VideoPreloader from './pages/Home/Video-Preloader';
 import SocialOutreach from './pages/SocialOutreach/SocialOutreach';
 
 function App() {
