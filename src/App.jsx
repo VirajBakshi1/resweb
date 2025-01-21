@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/Navbar'
+import SocialSidebar from './components/SocialSideBar.jsx'
 import Home from './pages/Home/Home'
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs/AboutUs';
@@ -28,33 +29,34 @@ import SocialOutreach from './pages/SocialOutreach/SocialOutreach';
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/journey" element={<Journey />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/trs" element={<TRS />} />
-        <Route path="/robocon" element={<Robocon />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/papersPublished" element={<PapersPublished />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/patents" element={<Patents />} />
-        <Route path="/ieee" element={<IEEE />} />
-        <Route path="/competitions" element={<Competitions />} />
-        <Route path="/mindspark" element={<Mindspark />} />
-        <Route path="/robotex" element={<Robotex />} />
-        <Route path="/distinguishedAlumni" element={<DistinguishedAlumni />} />
-        <Route path="/gallery2024" element={<Gallery2024 />} />
-        <Route path="/awards" element={<AwardsPage />} />
-        <Route path="/media-coverage" element={<MediaCoveragePage />} />
-        <Route path="/FTC" element={<FTC />} />
-        <Route path="/socialOutreach" element={<SocialOutreach />} />
-
-      </Routes>
-      <Footer />
+      <div className="relative">
+        <Navbar />
+        <SocialSidebar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/journey" element={<Journey />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/trs" element={<TRS />} />
+          <Route path="/robocon" element={<Robocon />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/papersPublished" element={<PapersPublished />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/patents" element={<Patents />} />
+          <Route path="/ieee" element={<IEEE />} />
+          <Route path="/competitions" element={<Competitions />} />
+          <Route path="/mindspark" element={<Mindspark />} />
+          <Route path="/robotex" element={<Robotex />} />
+          <Route path="/distinguishedAlumni" element={<DistinguishedAlumni />} />
+          <Route path="/gallery2024" element={<Gallery2024 />} />
+          <Route path="/awards" element={<AwardsPage />} />
+          <Route path="/media-coverage" element={<MediaCoveragePage />} />
+          <Route path="/FTC" element={<FTC />} />
+          <Route path="/socialOutreach" element={<SocialOutreach />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
