@@ -6,6 +6,7 @@ import HeroSection from '../../components/Herosection';
 import ProfileCard from '../../components/ProfileCard';
 import HomepageFeatures from '../../components/HomePageFeatures';
 import data from '../../data.json'
+import SponsorSlider from '../../components/SponsorSlider';
 
 const Home = () => {
   // Get secretaries data from the JSON
@@ -19,6 +20,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
+      <SponsorSlider />
       <AboutInformation />
       <HomepageFeatures />
       <CarouselFadeExample />

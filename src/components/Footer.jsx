@@ -29,7 +29,7 @@ const Footer = () => {
     ],
     phoneNumbers: [
       { type: "Phone", number: "020-2550-7366", link: "tel:02025507366" },
-      { type: "Mobile", number: "+91 9527 424 416", link: "tel:+919527424416" }
+
     ],
     mapLink: "https://maps.google.com?q=COEP+Robotics+Lab"
   };
@@ -63,18 +63,7 @@ const Footer = () => {
           {/* Quick Links and Contact Details */}
           <div className="flex flex-col md:flex-row md:space-x-20">
             {/* Quick Links */}
-            <div className="mb-6 md:mb-0">
-              <h3 className="font-bold text-gray-100 mb-2">Quick Links</h3>
-              <ul className="text-sm text-blue-500 space-y-1">
-                {quickLinks.map((link, index) => (
-                  <li key={index}>
-                    <a href={link.url} target="_blank" rel="noopener noreferrer">
-                      {link.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          
 
             {/* Contact Details */}
             <div>

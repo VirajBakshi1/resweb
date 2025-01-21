@@ -1068,62 +1068,102 @@
     ]
   },
   "Sponsors&Affiliates": {
-      "sponsors": [
-        {
-          "name": "JANATICS PNEUMATIC",
-          "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
-          "website": "https://www.janatics.com"
-        },
-        {
-          "name": "PEPPERL + FUCHS",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo_Pepperl%2BFuchs.svg/2560px-Logo_Pepperl%2BFuchs.svg.png",
-          "website": "https://www.pepperl-fuchs.com/india/hi/index.htm"
-        },
-        {
-          "name": "ROBOT TECHNOLOGIES",
-          "logo": "src/assets/sponsors/Robotechnologies.png",
-          "website": "https://www.robottechnologies.com"
-        },
-        {
-          "name": "SIEMENS",
-          "logo": "src/assets/sponsors/simens.png",
-          "website": "https://www.siemens.com"
-        },
-        {
-          "name": "SCHMALZ",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SCHMALZ_Logo.svg/2560px-SCHMALZ_Logo.svg.png",
-          "website": "https://www.schmalz.com/"
-        },
-        {
-          "name": "WIPRO PARI",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZm4gTo9M86VzvFQibe1UmN5TRqtx8z7o1w&s",
-          "website": "https://www.wipropari.com/"
-        },
-        {
-          "name": "iROBOTICS",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xOWT39kX3zI7-PCFdItagiLV_tqSsOxyiw&s",
-          "website": "https://irobotics.co.in/"
-        },
-        {
-          "name": "SOLIDWORKS",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK-98QqCCFkbDNAvethCbhRUOFGjQrGgbcEA&s",
-          "website": "https://www.solidworks.com/"
-        },
-        {
-          "name": "ROBOTEX",
-          "logo": "https://digiexpo.e-estonia.com/wp-content/uploads/2022/06/robotex_newlogo.png",
-          "website": "https://www.robotex-india.in/"
-        },
-        {
-          "name": "ALTIUM DESIGNER",
-          "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
-          "website": "https://www.altium.com/altium-designer"
-        }
-      ],
-      "affiliates": [
-        
-      ]
-    },
+    "sponsors": [
+      {
+        "name": "JANATICS PNEUMATIC",
+        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "website": "https://www.janatics.com"
+      },
+      {
+        "name": "PEPPERL + FUCHS",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo_Pepperl%2BFuchs.svg/2560px-Logo_Pepperl%2BFuchs.svg.png",
+        "website": "https://www.pepperl-fuchs.com/india/hi/index.htm"
+      },
+      {
+        "name": "ROBOT TECHNOLOGIES",
+        "logo": "src/assets/sponsors/Robotechnologies.png",
+        "website": "https://www.robottechnologies.com"
+      },
+      {
+        "name": "SIEMENS",
+        "logo": "src/assets/sponsors/simens.png",
+        "website": "https://www.siemens.com"
+      },
+      {
+        "name": "SCHMALZ",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SCHMALZ_Logo.svg/2560px-SCHMALZ_Logo.svg.png",
+        "website": "https://www.schmalz.com/"
+      },
+      {
+        "name": "WIPRO PARI",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZm4gTo9M86VzvFQibe1UmN5TRqtx8z7o1w&s",
+        "website": "https://www.wipropari.com/"
+      },
+      {
+        "name": "iROBOTICS",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xOWT39kX3zI7-PCFdItagiLV_tqSsOxyiw&s",
+        "website": "https://irobotics.co.in/"
+      },
+      {
+        "name": "SOLIDWORKS",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK-98QqCCFkbDNAvethCbhRUOFGjQrGgbcEA&s",
+        "website": "https://www.solidworks.com/"
+      },
+      {
+        "name": "ROBOTEX",
+        "logo": "https://digiexpo.e-estonia.com/wp-content/uploads/2022/06/robotex_newlogo.png",
+        "website": "https://www.robotex-india.in/"
+      },
+      {
+        "name": "ALTIUM DESIGNER",
+        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "website": "https://www.altium.com/altium-designer"
+      }
+    ],
+    "oldSponsors": [
+      {
+        "name": "ROHM Semiconductor",
+        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "website": "https://www.rohm.com"
+      },
+      {
+        "name": "KUKA Robotics",
+        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "website": "https://www.kuka.com"
+      },
+      {
+        "name": "Festo",
+        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "website": "https://www.festo.com"
+      },
+      {
+        "name": "National Instruments",
+        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "website": "https://www.ni.com"
+      },
+      {
+        "name": "Phoenix Contact",
+        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "website": "https://www.phoenixcontact.com"
+      },
+      {
+        "name": "ABB",
+        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "website": "https://www.abb.com"
+      },
+      {
+        "name": "Bosch Rexroth",
+        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "website": "https://www.boschrexroth.com"
+      },
+      {
+        "name": "Rockwell Automation",
+        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "website": "https://www.rockwellautomation.com"
+      }
+    ],
+    "affiliates": []
+  },
   "Achievements": {
     "Patents": {
       "PatentsData" : [

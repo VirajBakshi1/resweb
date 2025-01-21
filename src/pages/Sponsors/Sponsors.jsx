@@ -74,38 +74,57 @@ const SponsorCard = ({ sponsor }) => {
   );
 };
 
-const Sponsors = () => {
-  const sponsors = data["Sponsors&Affiliates"].sponsors;
-  const affiliates = data["Sponsors&Affiliates"].affiliates;
-
-  const renderSection = (title, items) => (
-    <div className="relative">
-      {/* Section title with glow effect */}
-      <h1 className="text-center text-6xl font-bold mb-16">
-        <span className="relative inline-block">
-          <span className="absolute inset-0  blur-md opacity-50"></span>
-          <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
-            to-purple-400 bg-clip-text text-transparent">
-            {title}
-          </span>
-        </span>
-      </h1>
-
-      {/* Grid layout */}
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
-        gap-8 mb-16">
-        {items.map((item, index) => (
-          <SponsorCard key={index} sponsor={item} />
-        ))}
+const OldSponsorCard = ({ sponsor }) => (
+  <a
+    href={sponsor.website}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative"
+  >
+    <div className="relative bg-black/50 border border-blue-500/20 p-3 transition-all duration-300 
+      hover:border-blue-500/40 rounded-lg">
+      <div className="relative mb-2">
+        <div className="relative p-2 bg-white/90 rounded">
+          <img 
+            src={sponsor.logo} 
+            alt={sponsor.name} 
+            className="h-12 w-auto mx-auto object-contain brightness-90 group-hover:brightness-100 
+              transition-all duration-300"
+          />
+        </div>
       </div>
+      <h3 className="text-center text-sm font-medium text-gray-400 group-hover:text-gray-300 
+        transition-colors duration-300 truncate">
+        {sponsor.name}
+      </h3>
     </div>
-  );
+  </a>
+);
+
+const Sponsors = () => {
+  const { sponsors, oldSponsors } = data["Sponsors&Affiliates"];
 
   return (
     <div className="relative min-h-screen bg-black p-4 py-16">      
       <div className="relative z-10">
-        {/* Sponsors Section */}
-        {renderSection("OUR SPONSORS", sponsors)}
+        {/* Current Sponsors Section */}
+        <div className="relative mb-24">
+          <h1 className="text-center text-5xl font-bold mb-16">
+            <span className="relative inline-block">
+              <span className="absolute inset-0 blur-md opacity-50"></span>
+              <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
+                to-purple-400 bg-clip-text text-transparent">
+                OUR SPONSORS
+              </span>
+            </span>
+          </h1>
+
+          <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-16">
+            {sponsors.map((sponsor, index) => (
+              <SponsorCard key={index} sponsor={sponsor} />
+            ))}
+          </div>
+        </div>
 
         {/* Holographic divider */}
         <div className="relative w-2/3 mx-auto h-px my-24">
@@ -115,7 +134,24 @@ const Sponsors = () => {
             via-purple-500 to-transparent animate-pulse delay-75"></div>
         </div>
 
-    
+        {/* Past Sponsors Section */}
+        <div className="relative">
+          <h1 className="text-center text-4xl font-bold mb-16">
+            <span className="relative inline-block">
+              <span className="absolute inset-0 blur-md opacity-50"></span>
+              <span className="relative bg-gradient-to-r from-blue-400 to-purple-400 
+                bg-clip-text text-transparent">
+                PAST SPONSORS
+              </span>
+            </span>
+          </h1>
+
+          <div className="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            {oldSponsors.map((sponsor, index) => (
+              <OldSponsorCard key={index} sponsor={sponsor} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

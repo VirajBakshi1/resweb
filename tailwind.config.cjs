@@ -8,6 +8,8 @@ module.exports = {
         'fade-in': 'fade-in 0.5s ease-out forwards',
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'float': 'float 6s ease-in-out infinite',
+        'scroll': 'scroll 40s linear infinite',
+        'scroll-reverse': 'scroll-reverse 40s linear infinite',
       },
       keyframes: {
         'text-shimmer': {
@@ -37,6 +39,14 @@ module.exports = {
           '50%': {
             transform: 'translateY(-20px)'
           }
+        },
+        'scroll': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-50%))' }
+        },
+        'scroll-reverse': {
+          '0%': { transform: 'translateX(calc(-50%))' },
+          '100%': { transform: 'translateX(0)' }
         }
       },
       backgroundImage: {
