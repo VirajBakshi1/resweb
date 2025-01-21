@@ -161,7 +161,7 @@ const Navbar = () => {
                       </React.Fragment>
                     ))}
                     <span className="ml-1 text-xs inline-block transition-transform duration-300 
-                      group-hover:rotate-180">▼</span>
+                     ">▼</span>
                   </span>
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-cyan-500 
                     to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform 
