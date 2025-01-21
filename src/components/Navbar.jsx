@@ -200,11 +200,21 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Overlay */}
-          <div
+    {/* Mobile Menu Overlay */}
+    <div
             className={`fixed inset-0 bg-black/95 backdrop-blur-lg md:hidden transition-all 
               duration-300 ease-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
           >
+            {/* Close Button */}
+            <button
+              onClick={() => setIsOpen(false)}
+              className="absolute top-4 right-4 p-2 rounded-lg bg-gradient-to-r 
+                from-cyan-500/10 to-blue-500/10 border border-blue-500/30 
+                hover:bg-blue-500/20 transition-all duration-300"
+            >
+              <FaTimes className="text-2xl text-blue-400" />
+            </button>
+
             <div className="flex flex-col items-center justify-center min-h-screen p-8 space-y-4 
               overflow-y-auto">
               {/* Mobile Links */}
@@ -233,8 +243,8 @@ const Navbar = () => {
                       ${dropdownOpen === dropdown.name ? 'rotate-180' : ''}`}>▼</span>
                   </button>
 
-                  <div className={`mt-2 space-y-2 bg-blue-500/10 rounded-lg overflow-hidden transition-all 
-                    duration-300 ${dropdownOpen === dropdown.name ? 'max-h-96 p-4' : 'max-h-0'}`}>
+                  <div className={`mt-2 space-y-2 bg-blue-500/10 rounded-lg overflow-hidden 
+                    transition-all duration-300 ${dropdownOpen === dropdown.name ? 'max-h-96 p-4' : 'max-h-0'}`}>
                     {dropdown.items.map((item) => (
                       <Link
                         key={item.to}
