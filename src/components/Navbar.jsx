@@ -67,11 +67,11 @@ const Navbar = () => {
       label: 'Achievements',
       items: [
         { to: '/patents', label: 'Patents' },
-        { to: '/papers-published', label: 'Papers' },
+        { to: '/papersPublished', label: 'Papers' },
         { to: '/awards', label: 'Awards' },
         { to: '/alumni-startups', label: 'Alumni Startups' },
         { to: '/media-coverage', label: 'Media Coverage' },
-        { to: '/distinguished-alumni', label: 'Distinguished Alumni' }
+        { to: '/distinguishedAlumni', label: 'Distinguished Alumni' }
       ]
     },
     {
