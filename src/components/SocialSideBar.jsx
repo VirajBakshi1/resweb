@@ -17,7 +17,7 @@ const SocialSidebar = () => {
     },
     {
       icon: <FaYoutube />,
-      link: "https://www.youtube.com/@coeproboticsv",
+      link: "https://www.youtube.com/@coeprobotics",
       color: "hover:bg-red-600"
     },
     {
