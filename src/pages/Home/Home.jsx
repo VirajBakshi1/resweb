@@ -4,6 +4,7 @@ import AboutInformation from '../../components/AboutInformation';
 import NewsSection from '../../components/News';
 import HeroSection from '../../components/Herosection';
 import ProfileCard from '../../components/ProfileCard';
+import HomepageFeatures from '../../components/HomePageFeatures';
 import data from '../../data.json'
 
 const Home = () => {
@@ -19,28 +20,10 @@ const Home = () => {
     <div>
       <HeroSection />
       <AboutInformation />
+      <HomepageFeatures />
       <CarouselFadeExample />
       <NewsSection />
-      
-      {/* Secretaries Section */}
-      <div className="min-h-screen bg-black p-12">
-        <h1 className="text-4xl font-bold text-blue-300 text-center mb-8 hover:text-blue-400 transition-colors duration-300">
-          SECRETARIES OVER THE YEARS
-        </h1>
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {secretaries.map((person, index) => (
-              <ProfileCard
-                key={index}
-                name={person.name}
-                image={person.image}
-                socials={person.socials}
-                year={person.year}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 }

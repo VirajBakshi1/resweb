@@ -1,5 +1,26 @@
 {
   "Home": {
+   "Features": {
+      "sections": [
+        {
+          "id": "car",
+          "title": "Our Car",
+          "description": "Over the years, our vehicles have evolved from traditional internal combustion engines to cutting-edge electric powertrains. Each car reflects our relentless pursuit of performance, efficiency, and sustainability. From our early prototypes to our latest high-voltage, every iteration has pushed the boundaries of what's possible in student-led motorsport. These cars embody our commitment to innovation, teamwork, and the spirit of competition.",
+          "buttonText": "Our Cars",
+          "image": "/api/placeholder/800/600",
+          "link": "/cars"
+        },
+        {
+          "id": "team",
+          "title": "Our Team",
+          "description": "We're a team of 40+ engineers from COEP Technological University, driven to build the ultimate Formula Student car. Team Octane Racing Electric, inspired by Formula One, designs and races electric vehicles in top competitions. Recognized by industry leaders like Tesla and Bajaj Auto, we're pushing boundaries with powerful high-voltage systems, and carbon fiber components. Join us on this journey as we redefine the future of racing with TORe!",
+          "buttonText": "Our Team",
+          "image": "/api/placeholder/800/600",
+          "link": "/team",
+          "reverse": true
+        }
+      ]
+    },
 
     "News": {
       "Projects": [
@@ -81,60 +102,91 @@
       }
     ]
   },
-  "Journey": {
-    "Timeline":[
+ "Journey": {
+    "Timeline": [
       {
         "date": "2014",
         "description": "Partnered with Pepperl + Fuchs. Built a quadrotor with IMU stability and a Wall Climbing Robot.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2014.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2014.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2015",
         "description": "Won Best Innovative Design (ROHM) and Best Manual Operators at Robocon. Developed badminton-playing robots with 2D LIDAR.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2015.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2015.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2016",
         "description": "1st Runner-Up at Robocon. Won MathWorks and Fastest Job Completing Robot awards. Published papers on robotic fish and omni-drive robots.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2016.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2016.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2017",
         "description": "Won National Robocon. Developed mecanum drive and electronic pressure regulator for pneumatics.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2017.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2017.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2018",
-        "description": "Founded India’s first Student Chapter of The Robotics Society. Developed CAN & RS-485 protocols. Built humanoid torso, ornithopter, and AGV.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2018.jpg"
+        "description": "Founded India's first Student Chapter of The Robotics Society. Developed CAN & RS-485 protocols. Built humanoid torso, ornithopter, and AGV.",
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2018.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2019",
         "description": "Won 3Kg Sumo at National Robotex. Partnered with Siemens India. Developed a custom PID motor controller.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2019.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2019.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
-      {
-        "date": "2020",
-        "description": "Due to ongoing Covid-19 crisis, the activities conducted by The Robotics Society, Student Chapter, COEP were online. The lectures were organized on various topics such as “Online Industrial Robot Programming Workshop with live demonstration”, “Expert Lecture on Humanoids followed by Virtual Demonstration of Nao-VI”.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2020.jpg"
-      },
+      
       {
         "date": "2021",
         "description": "Ranked 13th in Robocon. Presented 13 papers at ICIT-2021. Built Lagori robots, an underwater ROV, and a swerve drive.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2021.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2021.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2022",
         "description": "Ranked 13th in Robocon. Conducted industrial robot training. Built a holonomic drive, four-legged robot, and bionic hand.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2022.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2022.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       },
       {
         "date": "2023",
         "description": "Secured 5th in Robocon (Harpoon Throwing). Hosted six Robotica events, including Robowars and Virtual Robotics.",
-        "image": "https://www.coeprobotics.com/assets/Journey/2023.jpg"
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2023.jpg",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
       }
     ]
-    
   },
   "Team": {
       "facad": [
