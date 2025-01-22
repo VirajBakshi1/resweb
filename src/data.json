@@ -102,15 +102,13 @@
       }
     ]
   },
- "Journey": {
+  "Journey": {
     "Timeline": [
       {
         "date": "2014",
         "description": "Partnered with Pepperl + Fuchs. Built a quadrotor with IMU stability and a Wall Climbing Robot.",
         "images": [
-          "https://www.coeprobotics.com/assets/Journey/2014.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2014-1.jpg"
         ]
       },
       {
@@ -118,8 +116,14 @@
         "description": "Won Best Innovative Design (ROHM) and Best Manual Operators at Robocon. Developed badminton-playing robots with 2D LIDAR.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2015.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2015-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-3.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-4.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-5.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-6.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-7.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2015-8.jpg"
         ]
       },
       {
@@ -127,8 +131,11 @@
         "description": "1st Runner-Up at Robocon. Won MathWorks and Fastest Job Completing Robot awards. Published papers on robotic fish and omni-drive robots.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2016.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2016-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2016-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2016-3.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2016-3 (1).jpg",
+          "https://www.coeprobotics.com/assets/Journey/2016-4.jpg"
         ]
       },
       {
@@ -136,8 +143,9 @@
         "description": "Won National Robocon. Developed mecanum drive and electronic pressure regulator for pneumatics.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2017.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2017-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2017-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2017-3.jpg"
         ]
       },
       {
@@ -145,8 +153,16 @@
         "description": "Founded India's first Student Chapter of The Robotics Society. Developed CAN & RS-485 protocols. Built humanoid torso, ornithopter, and AGV.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2018.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2018-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-3.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-4.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-5.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-5 (1).jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-6.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-7.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-8.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2018-9.jpg"
         ]
       },
       {
@@ -154,18 +170,18 @@
         "description": "Won 3Kg Sumo at National Robotex. Partnered with Siemens India. Developed a custom PID motor controller.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2019.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2019-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2019-2.jpg"
         ]
       },
-      
       {
         "date": "2021",
         "description": "Ranked 13th in Robocon. Presented 13 papers at ICIT-2021. Built Lagori robots, an underwater ROV, and a swerve drive.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2021.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2021-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2021-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2021-3.jpg"
         ]
       },
       {
@@ -173,8 +189,12 @@
         "description": "Ranked 13th in Robocon. Conducted industrial robot training. Built a holonomic drive, four-legged robot, and bionic hand.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2022.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2022-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2022-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2022-3.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2022-4.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2022-5.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2022-6.jpg"
         ]
       },
       {
@@ -182,463 +202,454 @@
         "description": "Secured 5th in Robocon (Harpoon Throwing). Hosted six Robotica events, including Robowars and Virtual Robotics.",
         "images": [
           "https://www.coeprobotics.com/assets/Journey/2023.jpg",
-          "/api/placeholder/800/600",
-          "/api/placeholder/800/600"
+          "https://www.coeprobotics.com/assets/Journey/2023-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2023-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2023-3.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2023-4.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2023-5.jpg"
+        ]
+      },
+      {
+        "date": "2024",
+        "description": "Latest achievements and developments",
+        "images": [
+          "https://www.coeprobotics.com/assets/Journey/2024.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2024-1.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2024-2.jpg",
+          "https://www.coeprobotics.com/assets/Journey/2024-3.jpg"
         ]
       }
     ]
   },
   "Team": {
-      "facad": [
-        {
-          "name": "Dr. S. S. OHOL",
-          "image": "src/assets/team/oholsir.png",
-          "designation": "Faculty Advisor",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/dr-shantipal-ohol-8547b620?originalSubdomain=in",
-            "github": "",
-            "twitter": ""
-          }
-        }
-      ],
-      "firstYear": [
-        "First Year Member 1",
-        "First Year Member 2",
-        "First Year Member 3",
-        "First Year Member 4"
-      ],
-      "secondYear": [
-
-        {
-          "name": "Laya Kshetrapal",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/laya-kshetrapal-9615b927a/"
-          }
-        },
-        
-        {
-          "name": "Saatvika Udayakumar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/saatvika-udayakumar-441901313/"
-          }
-        },
-        {
-          "name": "Tejas Nirwan",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/tejas-nirwan-43a779291/"
-          }
-        },
-
-        {
-          "name": "Kavish Patil",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            
-          }
-        },          
-        {
-          "name": "Dhiraj Patil",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/dhiraj-patil-a2150729b/"
-          }
-        },
-        {
-          "name": "Shishir Shiragave",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://in.linkedin.com/in/shishir-shiragave-785589282"
-          }
-        },          
-        {
-          "name": "Saleel Mutalik",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "www.linkedin.com/in/saleel-mutalik-b9253427b"
-          }
-        },             
-        {
-          "name": "Shreya Muley",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/shreya-muley-2a57482ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          }
-        },             
-        {
-          "name": "Tanmay Lonbale",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/tanmay-lonbale-690547293/"
-          }
-        },            
-        
-        {
-          "name": "Saleel Mutalik",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "www.linkedin.com/in/saleel-mutalik-b9253427b"
-          }
-        },           
-        
-        {
-          "name": "Samruddhi Nighrunkar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-         
-          }
-        },           
-        {
-          "name": "Khushi Jaiswal",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/khushi-jaiswal-230648253/"
-          }
-        },             
-        {
-          "name": "Chandan Rathore",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/chandan-rathore-3b9baa30a/"
-          }
-        },      
-        
-        {
-          "name": "Aditya Mane",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-          }
-        },            
-        {
-          "name": "Siya Jadhao",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/siya-jadhao-12052328b/ "
-          }
-        },            
-        
-        {
-          "name": "Arpit Khole",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/arpit-khole-404696308/"
-          }
-        },  
-        {
-          "name": "Atharv Divekar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-          }
-        },            
-        {
-          "name": "Himanshu Paranjape",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/himanshu-paranjape-7628a1291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-          }
-        },            
-        {
-          "name": "Neil Ganju",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/neil-ganju-0bab692a7/"
-          }
-        },           
-        {
-          "name": "Parth Kharche",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "www.linkedin.com/in/parth-kharche-b5a992293"
-          }
-        },            
-        {
-          "name": "Arnav Mundle",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/arnav-mundle-49a78b335"
-          }
-        },           
-        {
-          "name": "Sharvin Samak",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/sharvin-samak-428824302/"
-          }
-        },           
-        {
-          "name": "Soham Pokarna",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/soham-pokarna-a69773335/"
-          }
-        }                   
-      ],
-      "thirdYear": [
-        {
-          "name": "Dishant Kinake",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/dishant-kinake-a71ba925a/"
-          }
-        },  
-        {
-          "name": "Diya Shetty",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "linkedin.com/in/diya-shetty-6bb03428"
-          }
-        },  
-        {
-          "name": "Harshvardhar Ligade",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://linkedin.com/in/harshvardhan-ligade-77b174290"
-          }
-        },  
-        {
-          "name": "Kunal Pawar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/kunal-pawar-208631260/"
-          }
-        },  
-        {
-          "name": "Omprakash Dumre",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/omprakash-dumre-19abbb25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          }
-        },  
-        {
-          "name": "Richelle Bardeskar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/richelle-bardeskar-2b4875137/"
-          }
-        },  
-        {
-          "name": "Sarthak Dhande",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-
-          }
-        },  
-        {
-          "name": "Sumit Madane",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/sumit-madane-60697b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          }
-        },  
-        {
-          "name": "Tanvi Chalke",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/tanvi-chalke-ab7696289/"
-          }
-        },  
-        {
-          "name": "Vedant Divekar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/vedant-dhananjay-divekar-427082303/"
-          }
-        }
-      ],
-      "bTech": [
-        {
-          "name": "Hridhay Kutty",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Secretary",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/hridhay-kutty-56483a239/"
-          }
-        },  
-        {
-          "name": "Atharva Neglur",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Joint Secretary",
-          "socials": {
-            "linkedin": "www.linkedin.com/in/atharvaneglur"
-          }
-        },  
-        {
-          "name": "Aditya More",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Secretary",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/aditya-more-0a4035212/"
-          }
-        },            
-        {
-          "name": "Anish Patil",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/anish-patil-6083a3230/"
-          }
-        },    
-        {
-          "name": "Anish Patil",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/anishcpatil/"
-          }
-        },  
-        {
-          "name": "Ayush\n Ambhorkar",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/ayush-ambhorkar-827628223/"
-          }
-        }, 
-        {
-          "name": "Jiten Topiwala",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/jitentopiwala"
-          }
-        }, 
-        {
-          "name": "Yash Gavit",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/yash-gavit-2ab657229/"
-          }
-        }
-      ],
-
-      "alumni": [
-        {
-          "name": "John Doe",
-          "image": "https://randomuser.me/api/portraits/men/75.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/johndoe/",
-            "github": "https://github.com/johndoe",
-            "twitter": "https://twitter.com/johndoe"
-          }
-        },
-        {
-          "name": "Jane Smith",
-          "image": "https://randomuser.me/api/portraits/women/65.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/janesmith/",
-            "github": "https://github.com/janesmith",
-            "twitter": "https://twitter.com/janesmith"
-          }
-        },
-        {
-          "name": "Alice Johnson",
-          "image": "https://randomuser.me/api/portraits/women/45.jpg",
-          "designation": "Member",
-          "socials": {
-            "linkedin": "https://www.linkedin.com/in/alicejohnson/",
-            "github": "https://github.com/alicejohnson",
-            "twitter": "https://twitter.com/alicejohnson"
-          }
-        }
-      ]
-    },
-  "Projects": {
-
-    "ProjectData":[
+    "facad": [
       {
-          "title": "Human Assistive Lower Body Exoskeleton",
-          "description": "Bringing bionics to reality!",
-          "points": ["Was the runner-up at DRDO Competition ", "A mechanised exoskeleton that supports extreme weight using pneumatics"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/EUGeQhgx2KlKkVB1IE7YHNsBA6SF4HWFkaF7pwrzMBH9rw?e=iEkwA3"
-        },
-        {
-          "title": "Vilola: Man-Packable Surveillance Robot",
-          "description": "Straight out of a spy movie!",
-          "points": ["Uses a camera to stream video", "2 Motorised hemispheres allow the robot to traverse", "The central cylindrical body is stablilsed so that the camera is always facing at the right angle"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/ETFP9U94d1tMsP6czZXWcCQByLfegUf94gIp2VZHsDJRTA?e=dBI5Zi"
-        },
-        {
-          "title": "RFID Based Electronic Voting Machine",
-          "description": "Revolutionizing Elections!",
-          "points": ["In house RFID machine for elections during COVID-19", "Votes were secured via tags to avoid rigging", "Connected to a database that was updated with each scan"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/EYE4j5aT0hFMsl7dObov8wkBLy6_KHW5Cfn8DjQRr3penw?e=Dos1Oc"
-        },
-        {
-          "title": "Swerve Drive",
-          "description": "Effortless agility, infinite possibilities!",
-          "points": ["Makes efficient use of every motor action", "Makes use of 2 motors one for the driving action and the other for direction control", "Mechanical coupling plays an important role for driving the gear action"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/EczzdJ3AhjNDm20RSklJoLMBtJk9tWcKNWyCOr1CQzS7hg?e=DMZUcH"
-        },
-        {
-          "title": "Ornithopter",
-          "description": "RSC's try at bio mimicry!",
-          "points": ["Cycled through two versions of this robot", "Latest version is a bird robot that can fly in circles with support", "Uses high speed motors to mimic wing flapping","Makes use of gyroscope to maintain balance wihile flying"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/EZZJ5_aPBCtKhihwxQwKz-UBkxpXJeXSfRBLG7u2pnYZLA?e=SpKOKd"
-        },
-        {
-          "title": "Wall Climbing Robot",
-          "description": "Defying gravity, conquering walls",
-          "points": ["Inspired by the lizard", "Uses suction action to stick the wall"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/EQL-cZRMM01DsN67isONnpQBbP3sGvmQhrbI6MNFak73Eg?e=aQqTGP"
+        "name": "Dr. S. S. OHOL",
+        "image": "https://www.coeprobotics.com/assets/team/dr-s-s-ohol.jpg",
+        "designation": "Faculty Advisor",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/dr-shantipal-ohol-8547b620?originalSubdomain=in",
+          "github": "",
+          "twitter": ""
         }
+      }
     ],
-    "AdvancedRobotsData":[
+    "firstYear": [
+      "First Year Member 1",
+      "First Year Member 2",
+      "First Year Member 3",
+      "First Year Member 4"
+    ],
+    "secondYear": [
       {
-          "title": "NAO",
-          "description": "The NAO robot is a state-of-the-art humanoid robot designed to interact, learn, and assist in various environments",
-          "points": ["25 degrees of freedom and precise motor control", "Customizable Platform allows programmers to program specific routines using the choreographed software", "NAO is powered by AI, enabling it to understand speech, recognize faces, and respond intelligently to commands"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/ES-d6U_wdjdLlNkHDADX8z0BtvMTnG7dl9u6DYj5Fz3aYw?e=TrA1Zj"
-        },
-        {
-          "title": "Genebo",
-          "description": "The Genebo dog robot is an advanced quadruped robot designed for versatility, agility, and adaptability in various environments",
-          "points": ["Genebo excels in navigating diverse terrains with stability and precision, thanks to its robust legged design and advanced motion control algorithms", "With its friendly design and responsive features, Genebo can engage with people, making it suitable for education, companionship, and public demonstrations", "Equipped with sensors, cameras, and AI-powered perception, Genebo can analyze its surroundings, recognize obstacles, and adapt its behavior accordingly"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/ES-d6U_wdjdLlNkHDADX8z0BtvMTnG7dl9u6DYj5Fz3aYw?e=TrA1Zj"
-        },
-        {
-          "title": "Robosapien",
-          "description": "The Robosapien robot is a revolutionary humanoid robot, blending advanced robotics with engaging interactivity",
-          "points": ["Robosapien is equipped with over 67 pre-programmed actions, including walking, running, dancing, picking up objects, and even throwing them, mimicking natural human motions", "Robosapien features playful expressions, sound effects, and gestures that add a unique personality, making it an engaging companion", "Users can customize sequences of movements and behaviors, making Robosapien a great introduction to programming and robotics"],
-          "image": "https://coepac-my.sharepoint.com/:i:/g/personal/rsc_coeptech_ac_in/ERVhz2o3_YhIgsO0_CwP0FIBB1QGcHbM45xiWP8Xcho2JQ?e=BTrHQM"
+        "name": "Laya Kshetrapal",
+        "image": "https://www.coeprobotics.com/assets/team/laya_kshetrapal.png",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/laya-kshetrapal-9615b927a/"
         }
+      },
+      {
+        "name": "Saatvika Udayakumar",
+        "image": "https://www.coeprobotics.com/assets/team/saatvika-u.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/saatvika-udayakumar-441901313/"
+        }
+      },
+      {
+        "name": "Tejas Nirwan",
+        "image": "https://www.coeprobotics.com/assets/team/tejas-nirwan.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/tejas-nirwan-43a779291/"
+        }
+      },
+      {
+        "name": "Kavish Patil",
+        "image": "https://www.coeprobotics.com/assets/team/kavish-patil.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
+        "name": "Dhiraj Patil",
+        "image": "https://www.coeprobotics.com/assets/team/dhiraj-patil.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/dhiraj-patil-a2150729b/"
+        }
+      },
+      {
+        "name": "Shishir Shiragave",
+        "image": "https://www.coeprobotics.com/assets/team/shishir-shiragave.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://in.linkedin.com/in/shishir-shiragave-785589282"
+        }
+      },
+      {
+        "name": "Saleel Mutalik",
+        "image": "https://www.coeprobotics.com/assets/team/saleel-mutalik.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "www.linkedin.com/in/saleel-mutalik-b9253427b"
+        }
+      },
+      {
+        "name": "Shreya Muley",
+        "image": "https://www.coeprobotics.com/assets/team/shreya-muley.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/shreya-muley-2a57482ab"
+        }
+      },
+      {
+        "name": "Tanmay Lonbale",
+        "image": "https://www.coeprobotics.com/assets/team/tanmay-lonbale.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/tanmay-lonbale-690547293/"
+        }
+      },
+      {
+        "name": "Samruddhi Nighrunkar",
+        "image": "https://www.coeprobotics.com/assets/team/samruddhi-nighrunkar.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
+        "name": "Khushi Jaiswal",
+        "image": "https://www.coeprobotics.com/assets/team/khushi-jaiswal.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/khushi-jaiswal-230648253/"
+        }
+      },
+      {
+        "name": "Chandan Rathore",
+        "image": "https://www.coeprobotics.com/assets/team/chandan-rathore.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/chandan-rathore-3b9baa30a/"
+        }
+      },
+      {
+        "name": "Aditya Mane",
+        "image": "https://www.coeprobotics.com/assets/team/aditya-mane.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
+        "name": "Siya Jadhao",
+        "image": "https://www.coeprobotics.com/assets/team/siya-jadhao.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/siya-jadhao-12052328b/"
+        }
+      },
+      {
+        "name": "Arpit Khole",
+        "image": "https://www.coeprobotics.com/assets/team/arpit-khole.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/arpit-khole-404696308/"
+        }
+      },
+      {
+        "name": "Atharv Divekar",
+        "image": "https://www.coeprobotics.com/assets/team/atharv-divekar.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
+        "name": "Himanshu Paranjape",
+        "image": "https://www.coeprobotics.com/assets/team/himanshu-paranjape.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/himanshu-paranjape-7628a1291"
+        }
+      },
+      {
+        "name": "Neil Ganju",
+        "image": "https://www.coeprobotics.com/assets/team/neil-ganju.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/neil-ganju-0bab692a7/"
+        }
+      },
+      {
+        "name": "Parth Kharche",
+        "image": "https://www.coeprobotics.com/assets/team/parth-kharche.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "www.linkedin.com/in/parth-kharche-b5a992293"
+        }
+      },
+      {
+        "name": "Arnav Mundle",
+        "image": "https://www.coeprobotics.com/assets/team/arnav-mundle.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/arnav-mundle-49a78b335"
+        }
+      },
+      {
+        "name": "Sharvin Samak",
+        "image": "https://www.coeprobotics.com/assets/team/sharvin-kaustub.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/sharvin-samak-428824302/"
+        }
+      },
+      {
+        "name": "Soham Pokarna",
+        "image": "https://www.coeprobotics.com/assets/team/soham-pokarna.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/soham-pokarna-a69773335/"
+        }
+      }
+    ],
+    "thirdYear": [
+      {
+        "name": "Dishant Kinake",
+        "image": "https://www.coeprobotics.com/assets/team/dishant-kinake.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/dishant-kinake-a71ba925a/"
+        }
+      },
+      {
+        "name": "Diya Shetty",
+        "image": "https://www.coeprobotics.com/assets/team/diya-shetty.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "linkedin.com/in/diya-shetty-6bb03428"
+        }
+      },
+      {
+        "name": "Harshvardhan Ligade",
+        "image": "https://www.coeprobotics.com/assets/team/harshvardhan-ligade.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://linkedin.com/in/harshvardhan-ligade-77b174290"
+        }
+      },
+      {
+        "name": "Kunal Pawar",
+        "image": "https://www.coeprobotics.com/assets/team/kunal-pawar.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/kunal-pawar-208631260/"
+        }
+      },
+      {
+        "name": "Omprakash Dumre",
+        "image": "https://www.coeprobotics.com/assets/team/omprakash-dumre.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/omprakash-dumre-19abbb25a"
+        }
+      },
+      {
+        "name": "Richelle Bardeskar",
+        "image": "https://www.coeprobotics.com/assets/team/richelle-bardeskar.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/richelle-bardeskar-2b4875137/"
+        }
+      },
+      {
+        "name": "Sarthak Dhande",
+        "image": "https://www.coeprobotics.com/assets/team/sarthak-dhande.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
+        "name": "Sumit Madane",
+        "image": "https://www.coeprobotics.com/assets/team/sumit-madane.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/sumit-madane-60697b285"
+        }
+      },
+      {
+        "name": "Tanvi Chalke",
+        "image": "https://www.coeprobotics.com/assets/team/tanvi-chalke.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/tanvi-chalke-ab7696289/"
+        }
+      },
+      {
+        "name": "Vedant Divekar",
+        "image": "https://www.coeprobotics.com/assets/team/vedant-divekar.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/vedant-dhananjay-divekar-427082303/"
+        }
+      }
+    ],
+    "bTech": [
+      {
+        "name": "Hridhay Kutty",
+        "image": "https://www.coeprobotics.com/assets/team/hridhay-kutty.jpg",
+        "designation": "Secretary",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/hridhay-kutty-56483a239/"
+        }
+      },
+      {
+        "name": "Atharva Neglur",
+        "image": "https://www.coeprobotics.com/assets/team/atharva-neglur.jpg",
+        "designation": "Joint Secretary",
+        "socials": {
+          "linkedin": "www.linkedin.com/in/atharvaneglur"
+        }
+      },
+      {
+        "name": "Aditya More",
+        "image": "https://www.coeprobotics.com/assets/team/aditya-more.jpg",
+        "designation": "Secretary",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/aditya-more-0a4035212/"
+        }
+      },
+      {
+        "name": "Anish Patil",
+        "image": "https://www.coeprobotics.com/assets/team/anish-patil.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/anish-patil-6083a3230/"
+        }
+      },
+      {
+        "name": "Anish Patil",
+        "image": "https://www.coeprobotics.com/assets/team/anish-patil-m.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/anishcpatil/"
+        }
+      },
+      {
+        "name": "Ayush Ambhorkar",
+        "image": "https://www.coeprobotics.com/assets/team/ayush-ambhorkar.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/ayush-ambhorkar-827628223/"
+        }
+      },
+      {
+        "name": "Jiten Topiwala",
+        "image": "https://www.coeprobotics.com/assets/team/jiten-topiwala.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/jitentopiwala"
+        }
+      },
+      {
+        "name": "Yash Gavit",
+        "image": "https://www.coeprobotics.com/assets/team/yash-gavit.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/yash-gavit-2ab657229/"
+        }
+      }
+    ]
+  },
+  "Projects": {
+    "ProjectData": [
+      {
+        "title": "Human Assistive Lower Body Exoskeleton",
+        "description": "Bringing bionics to reality!",
+        "points": [
+          "Was the runner-up at DRDO Competition ",
+          "A mechanised exoskeleton that supports extreme weight using pneumatics"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/lowerbodyexoskeleton.jpg"
+      },
+      {
+        "title": "Vilola: Man-Packable Surveillance Robot",
+        "description": "Straight out of a spy movie!",
+        "points": [
+          "Uses a camera to stream video",
+          "2 Motorised hemispheres allow the robot to traverse",
+          "The central cylindrical body is stablilsed so that the camera is always facing at the right angle"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/vilola.jpg"
+      },
+      {
+        "title": "RFID Based Electronic Voting Machine",
+        "description": "Revolutionizing Elections!",
+        "points": [
+          "In house RFID machine for elections during COVID-19",
+          "Votes were secured via tags to avoid rigging",
+          "Connected to a database that was updated with each scan"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/RFIDVotingMachine.jpg"
+      },
+      {
+        "title": "Swerve Drive",
+        "description": "Effortless agility, infinite possibilities!",
+        "points": [
+          "Makes efficient use of every motor action",
+          "Makes use of 2 motors one for the driving action and the other for direction control",
+          "Mechanical coupling plays an important role for driving the gear action"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/sverwedrive.jpg"
+      },
+      {
+        "title": "Ornithopter",
+        "description": "RSC's try at bio mimicry!",
+        "points": [
+          "Cycled through two versions of this robot",
+          "Latest version is a bird robot that can fly in circles with support",
+          "Uses high speed motors to mimic wing flapping",
+          "Makes use of gyroscope to maintain balance wihile flying"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/ornithopter.jpg"
+      },
+      {
+        "title": "Wall Climbing Robot",
+        "description": "Defying gravity, conquering walls",
+        "points": [
+          "Inspired by the lizard",
+          "Uses suction action to stick the wall"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/wallclimber.jpg"
+      }
+    ],
+    "AdvancedRobotsData": [
+      {
+        "title": "NAO",
+        "description": "The NAO robot is a state-of-the-art humanoid robot designed to interact, learn, and assist in various environments",
+        "points": [
+          "25 degrees of freedom and precise motor control",
+          "Customizable Platform allows programmers to program specific routines using the choreographed software",
+          "NAO is powered by AI, enabling it to understand speech, recognize faces, and respond intelligently to commands"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/NAO.jpg"
+      },
+      {
+        "title": "Genebo",
+        "description": "The Genebo dog robot is an advanced quadruped robot designed for versatility, agility, and adaptability in various environments",
+        "points": [
+          "Genebo excels in navigating diverse terrains with stability and precision, thanks to its robust legged design and advanced motion control algorithms",
+          "With its friendly design and responsive features, Genebo can engage with people, making it suitable for education, companionship, and public demonstrations",
+          "Equipped with sensors, cameras, and AI-powered perception, Genebo can analyze its surroundings, recognize obstacles, and adapt its behavior accordingly"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/NAO.jpg"
+      },
+      {
+        "title": "Robosapien",
+        "description": "The Robosapien robot is a revolutionary humanoid robot, blending advanced robotics with engaging interactivity",
+        "points": [
+          "Robosapien is equipped with over 67 pre-programmed actions, including walking, running, dancing, picking up objects, and even throwing them, mimicking natural human motions",
+          "Robosapien features playful expressions, sound effects, and gestures that add a unique personality, making it an engaging companion",
+          "Users can customize sequences of movements and behaviors, making Robosapien a great introduction to programming and robotics"
+        ],
+        "image": "https://www.coeprobotics.com/assets/Projects/Robosapien.jpg"
+      }
     ]
   },
   "ROBOCON": {
@@ -660,7 +671,7 @@
         "description": "The theme was 'Casting Flowers Over Angkor Wat'. The challenge involved two robots, a rabbit and an elephant, working together to toss rings onto poles.",
         "details": "Rank 5 and First Runners-Up in MathWorks Modeling Award",
         "images": [
-          "/src/assets/robocon2023/Screenshot_2023-10-21_12.53.54_PM.png",
+          "/src/assets/Competitions/Robocon_2023",
           "/src/assets/robocon2023/Screenshot_2023-10-21_12.55.57_PM.png",
           "/src/assets/robocon2023/Screenshot_2023-10-21_12.56.52_PM.png"
         ]
@@ -704,7 +715,7 @@
         "description": "The theme 'Sharing the Knowledge' was based on Mongolia's tradition of a message relay system. ",
         "details": "",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
+          "/src/assets/Competitions/Robocon_2019",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
         ]
@@ -726,9 +737,9 @@
         "description": "The theme revolves around the word 'asobi' (play), which is also a fundamental philosophy behind Robocon. In the match, each team will be given a set of discs which they are supposed to land on the poles of different height and at different distances. Team which will be able to land at least one disc on each pole will be declared as the winner of the game.",
         "details": "Winner of National Robocon 2017 among 115 teams. 1st Prize with One lakh prize money. Balkrishna memorial award: Rolling trophy for winning this year national robocon 2017. Bagged Best Idea award, fastest job completing robot. 1st prize for best usage of Mathworks Tools in National Robocon 2017 with 35 Thousands cash prize and subsequently represented India at Internationals.Nagase Award: Special Sponsor award given to Top 6 team among 19 team in International Robocon 2017 held at Tokyo, Japan. Best Lovely Robot: Online polling taken across 18 countries in live contest. Our robot won maximum poll.",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "/src/assets/Competitions/Robocon17-1",
+          "/src/assets/Competitions/Robocon17-2",
+          "/src/assets/Competitions/Robocon17-3"
         ]
       },
       {
@@ -737,8 +748,8 @@
         "description": "The concept behind the theme is the utilization of renewable energy sources. The match is between 2 teams (viz. red and blue), each team consisting of two robots. ",
         "details": "COEP secured the first runner-up position in the national competition. ",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
+          "/src/assets/Competitions/Robocon2016",
+          "/src/assets/Competitions/Robocon-2016",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
         ]
       },
@@ -748,7 +759,7 @@
         "description": "In the contest, the 2 teams (red and blue) had to play the game of badminton against each other. Each team made 2 robots to play a normal doubles badminton game.",
         "details": "Best Manual Operators Award – Robocon 2015 and Best Innovative Design Award by ROHM - Robocon 2015",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
+          "/src/assets/Competitions/Robocon_2015",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
         ]
@@ -851,7 +862,7 @@
         "description": "Part of Mindspark 2024 and consisted of a manually operated Pick-and-Place Robot ",
         "details": "Won 2nd Runners-Up",
         "images": [
-          "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
+          "/src/assets/Competitions/Roboroyale2024",
           "https://www.ripplesnigeria.com/wp-content/uploads/2024/08/images-23-1.jpeg",
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3wcmPATKyfJuapccpoU1UlCE4yiwhb1aYD-_Rqd4d7Ltulc6rVbb9_cx7hNVTgw409o&usqp=CAU"
         ]
@@ -873,8 +884,8 @@
         "description": "The FireFighter competition, part of Robotex 2024, consisted of an Autonomous Fire Extinguishing Robot capable of extinguishing candles ",
         "details": "Won 2nd Runners-Up",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
+          "/src/assets/Competitions/FireFighter-2024-1",
+          "/src/assets/Competitions/FireFighter-2024-2",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
       },
@@ -906,7 +917,7 @@
         "description": "Part of Robotex India held in 2023 ",
         "details": "Won Third Place",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
+          "/src/assets/Competitions/Sumo-2023",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -972,7 +983,7 @@
         "description": "Part of the Regional Robotex 2019 in Pune",
         "details": "Won 1st Runners-Up",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
+          "/src/assets/Competitions/Line-Follower-2019",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -983,7 +994,7 @@
         "description": " Held in the annual technical festival of COEP- Mindspark 2018.",
         "details": "Won 1st Runners-Up and 2nd Runners Up",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
+          "/src/assets/Competitions/Search-&-Destroy-2017",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -994,7 +1005,7 @@
         "description": "Held By DRDO ",
         "details": "2nd Runners-Up in DRDO’s Robotics and Unmanned System Exposition Competition in India winning cash prize of Rs. 50,000/-",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
+          "/src/assets/Competitions/DRDO-2018",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1027,7 +1038,7 @@
         "description": "Part of Mindspark 2017 organized by COEP ",
         "details": "Winner and 1st Runner-Up",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
+          "/src/assets/Competitions/Search-&-Destroy-2017",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1049,7 +1060,7 @@
         "description": "Represented India in IRC International at Techfest 2015-16 ",
         "details": "",
         "images": [
-          "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.53.54_PM.png",
+          "/src/assets/Competitions/IRC-2016",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
