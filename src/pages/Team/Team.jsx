@@ -96,7 +96,7 @@ const YearSection = ({ title, members, isFirstYear = false }) => {
       <div className={`grid ${
         isFirstYear 
           ? 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6' 
-          : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12'
+          : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-12'
       }`}>
         {members.map((member, index) => {
           if (isFirstYear) {
@@ -122,7 +122,7 @@ const YearSection = ({ title, members, isFirstYear = false }) => {
   );
 };
 
-const ProfileSection = ({ title, members, icon, cols = "lg:grid-cols-3" }) => {
+const ProfileSection = ({ title, members, icon, cols = "lg:grid-cols-4" }) => {
   if (!members || members.length === 0) return null;
 
   return (

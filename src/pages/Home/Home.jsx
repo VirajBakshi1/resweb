@@ -9,13 +9,7 @@ import data from '../../data.json'
 import SponsorSlider from '../../components/SponsorSlider';
 
 const Home = () => {
-  // Get secretaries data from the JSON
-  const secretaries = data.Home.Secretaries.map(secretary => ({
-    name: secretary.name,
-    image: 'https://randomuser.me/api/portraits/men/75.jpg', // Fallback image
-    year: secretary.year,
-    socials: secretary.socials
-  }));
+ 
 
   return (
     <div>
