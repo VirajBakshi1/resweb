@@ -555,6 +555,128 @@
           "linkedin": "https://www.linkedin.com/in/yash-gavit-2ab657229/"
         }
       }
+    ],
+    "alumni": [
+      {
+        "name": "Anirudha Gaikwad",
+        "image": "https://www.coeprobotics.com/assets/Alumini/anirudha-gaikwad-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/anirudha-gaikwad/",
+          "github": "https://github.com/anirudha-gaikwad",
+          "twitter": "https://twitter.com/anirudha-gaikwad"
+        }
+      },
+      {
+        "name": "Arya Arasan",
+        "image": "https://www.coeprobotics.com/assets/Alumini/arya-arasan-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/arya-arasan/",
+          "github": "https://github.com/arya-arasan",
+          "twitter": "https://twitter.com/arya-arasan"
+        }
+      },
+      {
+        "name": "Mihir Kulkarni",
+        "image": "https://www.coeprobotics.com/assets/Alumini/mihir-kulkarni-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/mihir-kulkarni/",
+          "github": "https://github.com/mihir-kulkarni",
+          "twitter": "https://twitter.com/mihir-kulkarni"
+        }
+      },
+      {
+        "name": "Poorval Wanere",
+        "image": "https://www.coeprobotics.com/assets/Alumini/poorval-wanere-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/poorval-wanere/",
+          "github": "https://github.com/poorval-wanere",
+          "twitter": "https://twitter.com/poorval-wanere"
+        }
+      },
+      {
+        "name": "Shaunak Mahajan",
+        "image": "https://www.coeprobotics.com/assets/Alumini/shaunak-mahajan-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/shaunak-mahajan/",
+          "github": "https://github.com/shaunak-mahajan",
+          "twitter": "https://twitter.com/shaunak-mahajan"
+        }
+      },
+      {
+        "name": "Chinmay Patil",
+        "image": "https://www.coeprobotics.com/assets/Alumini/chinmay-patil-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/chinmay-patil/",
+          "github": "https://github.com/chinmay-patil",
+          "twitter": "https://twitter.com/chinmay-patil"
+        }
+      },
+      {
+        "name": "Chirag Tawade",
+        "image": "https://www.coeprobotics.com/assets/Alumini/chirag-tawade-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/chirag-tawade/",
+          "github": "https://github.com/chirag-tawade",
+          "twitter": "https://twitter.com/chirag-tawade"
+        }
+      },
+      {
+        "name": "Koustubh Anturkar",
+        "image": "https://www.coeprobotics.com/assets/Alumini/koustubh-anturkar-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/koustubh-anturkar/",
+          "github": "https://github.com/koustubh-anturkar",
+          "twitter": "https://twitter.com/koustubh-anturkar"
+        }
+      },
+      {
+        "name": "Rushikesh Pabarkar",
+        "image": "https://www.coeprobotics.com/assets/Alumini/rushikesh-pabarkar-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/rushikesh-pabarkar/",
+          "github": "https://github.com/rushikesh-pabarkar",
+          "twitter": "https://twitter.com/rushikesh-pabarkar"
+        }
+      },
+      {
+        "name": "Samruddhi Purohit",
+        "image": "https://www.coeprobotics.com/assets/Alumini/samruddhi-purohit-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/samruddhi-purohit/",
+          "github": "https://github.com/samruddhi-purohit",
+          "twitter": "https://twitter.com/samruddhi-purohit"
+        }
+      },
+      {
+        "name": "Shubham Bhagat",
+        "image": "https://www.coeprobotics.com/assets/Alumini/shubham-bhagat-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/shubham-bhagat/",
+          "github": "https://github.com/shubham-bhagat",
+          "twitter": "https://twitter.com/shubham-bhagat"
+        }
+      },
+      {
+        "name": "Sojwal Deshmukh",
+        "image": "https://www.coeprobotics.com/assets/Alumini/sojwal-deshmukh-2.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/sojwal-deshmukh/",
+          "github": "https://github.com/sojwal-deshmukh",
+          "twitter": "https://twitter.com/sojwal-deshmukh"
+        }
+      }
     ]
   },
   "Projects": {
