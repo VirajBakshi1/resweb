@@ -225,7 +225,7 @@
     "facad": [
       {
         "name": "Dr. S. S. OHOL",
-        "image": "https://www.coeprobotics.com/assets/team/dr-s-s-ohol",
+        "image": "https://www.coeprobotics.com/assets/team/dr-s-s-ohol.jpg",
         "designation": "Faculty Advisor",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/dr-shantipal-ohol-8547b620?originalSubdomain=in",
@@ -243,29 +243,15 @@
     "secondYear": [
       {
         "name": "Laya Kshetrapal",
-        "image": "https://www.coeprobotics.com/assets/team/laya-kshetrapal",
+        "image": "https://www.coeprobotics.com/assets/team/laya_kshetrapal.png",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/laya-kshetrapal-9615b927a/"
         }
       },
       {
-        "name": "Khushi Jaiswal",
-        "image": "https://www.coeprobotics.com/assets/team/khushi-jaiswal",
-        "designation": "Member",
-        "socials": {
-          "linkedin": "https://www.linkedin.com/in/khushi-jaiswal-230648253/"
-        }
-      },
-      {
-        "name": "Kavish Patil",
-        "image": "https://www.coeprobotics.com/assets/team/kavish-patil",
-        "designation": "Member",
-        "socials": {}
-      },
-      {
         "name": "Saatvika Udayakumar",
-        "image": "https://www.coeprobotics.com/assets/team/saatvika-u",
+        "image": "https://www.coeprobotics.com/assets/team/saatvika-u.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/saatvika-udayakumar-441901313/"
@@ -273,15 +259,21 @@
       },
       {
         "name": "Tejas Nirwan",
-        "image": "https://www.coeprobotics.com/assets/team/tejas-nirwan",
+        "image": "https://www.coeprobotics.com/assets/team/tejas-nirwan.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/tejas-nirwan-43a779291/"
         }
       },
       {
+        "name": "Kavish Patil",
+        "image": "https://www.coeprobotics.com/assets/team/kavish-patil.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
         "name": "Dhiraj Patil",
-        "image": "https://www.coeprobotics.com/assets/team/dhiraj-patil",
+        "image": "https://www.coeprobotics.com/assets/team/dhiraj-patil.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/dhiraj-patil-a2150729b/"
@@ -289,7 +281,7 @@
       },
       {
         "name": "Shishir Shiragave",
-        "image": "https://www.coeprobotics.com/assets/team/shishir-shiragave",
+        "image": "https://www.coeprobotics.com/assets/team/shishir-shiragave.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://in.linkedin.com/in/shishir-shiragave-785589282"
@@ -297,7 +289,7 @@
       },
       {
         "name": "Saleel Mutalik",
-        "image": "https://www.coeprobotics.com/assets/team/saleel-mutalik",
+        "image": "https://www.coeprobotics.com/assets/team/saleel-mutalik.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "www.linkedin.com/in/saleel-mutalik-b9253427b"
@@ -305,7 +297,7 @@
       },
       {
         "name": "Shreya Muley",
-        "image": "https://www.coeprobotics.com/assets/team/shreya-muley",
+        "image": "https://www.coeprobotics.com/assets/team/shreya-muley.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/shreya-muley-2a57482ab"
@@ -313,7 +305,7 @@
       },
       {
         "name": "Tanmay Lonbale",
-        "image": "https://www.coeprobotics.com/assets/team/tanmay-lonbale",
+        "image": "https://www.coeprobotics.com/assets/team/tanmay-lonbale.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/tanmay-lonbale-690547293/"
@@ -321,13 +313,21 @@
       },
       {
         "name": "Samruddhi Nighrunkar",
-        "image": "https://www.coeprobotics.com/assets/team/samruddhi-nighrunkar",
+        "image": "https://www.coeprobotics.com/assets/team/samruddhi-nighrunkar.jpg",
         "designation": "Member",
         "socials": {}
       },
       {
+        "name": "Khushi Jaiswal",
+        "image": "https://www.coeprobotics.com/assets/team/khushi-jaiswal.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/khushi-jaiswal-230648253/"
+        }
+      },
+      {
         "name": "Chandan Rathore",
-        "image": "https://www.coeprobotics.com/assets/team/chandan-rathore",
+        "image": "https://www.coeprobotics.com/assets/team/chandan-rathore.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/chandan-rathore-3b9baa30a/"
@@ -335,13 +335,13 @@
       },
       {
         "name": "Aditya Mane",
-        "image": "https://www.coeprobotics.com/assets/team/aditya-mane",
+        "image": "https://www.coeprobotics.com/assets/team/aditya-mane.jpg",
         "designation": "Member",
         "socials": {}
       },
       {
         "name": "Siya Jadhao",
-        "image": "https://www.coeprobotics.com/assets/team/siya-jadhao",
+        "image": "https://www.coeprobotics.com/assets/team/siya-jadhao.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/siya-jadhao-12052328b/"
@@ -349,7 +349,7 @@
       },
       {
         "name": "Arpit Khole",
-        "image": "https://www.coeprobotics.com/assets/team/arpit-khole",
+        "image": "https://www.coeprobotics.com/assets/team/arpit-khole.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/arpit-khole-404696308/"
@@ -357,13 +357,13 @@
       },
       {
         "name": "Atharv Divekar",
-        "image": "https://www.coeprobotics.com/assets/team/atharv-divekar",
+        "image": "https://www.coeprobotics.com/assets/team/atharv-divekar.jpg",
         "designation": "Member",
         "socials": {}
       },
       {
         "name": "Himanshu Paranjape",
-        "image": "https://www.coeprobotics.com/assets/team/himanshu-paranjape",
+        "image": "https://www.coeprobotics.com/assets/team/himanshu-paranjape.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/himanshu-paranjape-7628a1291"
@@ -371,7 +371,7 @@
       },
       {
         "name": "Neil Ganju",
-        "image": "https://www.coeprobotics.com/assets/team/neil-ganju",
+        "image": "https://www.coeprobotics.com/assets/team/neil-ganju.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/neil-ganju-0bab692a7/"
@@ -379,7 +379,7 @@
       },
       {
         "name": "Parth Kharche",
-        "image": "https://www.coeprobotics.com/assets/team/parth-kharche",
+        "image": "https://www.coeprobotics.com/assets/team/parth-kharche.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "www.linkedin.com/in/parth-kharche-b5a992293"
@@ -387,7 +387,7 @@
       },
       {
         "name": "Arnav Mundle",
-        "image": "https://www.coeprobotics.com/assets/team/arnav-mundle",
+        "image": "https://www.coeprobotics.com/assets/team/arnav-mundle.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/arnav-mundle-49a78b335"
@@ -395,7 +395,7 @@
       },
       {
         "name": "Sharvin Samak",
-        "image": "https://www.coeprobotics.com/assets/team/sharvin-samak",
+        "image": "https://www.coeprobotics.com/assets/team/sharvin-kaustub.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/sharvin-samak-428824302/"
@@ -403,7 +403,7 @@
       },
       {
         "name": "Soham Pokarna",
-        "image": "https://www.coeprobotics.com/assets/team/soham-pokarna",
+        "image": "https://www.coeprobotics.com/assets/team/soham-pokarna.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/soham-pokarna-a69773335/"
@@ -413,7 +413,7 @@
     "thirdYear": [
       {
         "name": "Dishant Kinake",
-        "image": "https://www.coeprobotics.com/assets/team/dishant-kinake",
+        "image": "https://www.coeprobotics.com/assets/team/dishant-kinake.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/dishant-kinake-a71ba925a/"
@@ -421,7 +421,7 @@
       },
       {
         "name": "Diya Shetty",
-        "image": "https://www.coeprobotics.com/assets/team/diya-shetty",
+        "image": "https://www.coeprobotics.com/assets/team/diya-shetty.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "linkedin.com/in/diya-shetty-6bb03428"
@@ -429,7 +429,7 @@
       },
       {
         "name": "Harshvardhan Ligade",
-        "image": "https://www.coeprobotics.com/assets/team/harshvardhan-ligade",
+        "image": "https://www.coeprobotics.com/assets/team/harshvardhan-ligade.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://linkedin.com/in/harshvardhan-ligade-77b174290"
@@ -437,7 +437,7 @@
       },
       {
         "name": "Kunal Pawar",
-        "image": "https://www.coeprobotics.com/assets/team/kunal-pawar",
+        "image": "https://www.coeprobotics.com/assets/team/kunal-pawar.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/kunal-pawar-208631260/"
@@ -445,7 +445,7 @@
       },
       {
         "name": "Omprakash Dumre",
-        "image": "https://www.coeprobotics.com/assets/team/omprakash-dumre",
+        "image": "https://www.coeprobotics.com/assets/team/omprakash-dumre.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/omprakash-dumre-19abbb25a"
@@ -453,7 +453,7 @@
       },
       {
         "name": "Richelle Bardeskar",
-        "image": "https://www.coeprobotics.com/assets/team/richelle-bardeskar",
+        "image": "https://www.coeprobotics.com/assets/team/richelle-bardeskar.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/richelle-bardeskar-2b4875137/"
@@ -461,13 +461,13 @@
       },
       {
         "name": "Sarthak Dhande",
-        "image": "https://www.coeprobotics.com/assets/team/sarthak-dhande",
+        "image": "https://www.coeprobotics.com/assets/team/sarthak-dhande.jpg",
         "designation": "Member",
         "socials": {}
       },
       {
         "name": "Sumit Madane",
-        "image": "https://www.coeprobotics.com/assets/team/sumit-madane",
+        "image": "https://www.coeprobotics.com/assets/team/sumit-madane.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/sumit-madane-60697b285"
@@ -475,7 +475,7 @@
       },
       {
         "name": "Tanvi Chalke",
-        "image": "https://www.coeprobotics.com/assets/team/tanvi-chalke",
+        "image": "https://www.coeprobotics.com/assets/team/tanvi-chalke.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/tanvi-chalke-ab7696289/"
@@ -483,7 +483,7 @@
       },
       {
         "name": "Vedant Divekar",
-        "image": "https://www.coeprobotics.com/assets/team/vedant-divekar",
+        "image": "https://www.coeprobotics.com/assets/team/vedant-divekar.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/vedant-dhananjay-divekar-427082303/"
@@ -493,7 +493,7 @@
     "bTech": [
       {
         "name": "Hridhay Kutty",
-        "image": "https://www.coeprobotics.com/assets/team/hridhay-kutty",
+        "image": "https://www.coeprobotics.com/assets/team/hridhay-kutty.jpg",
         "designation": "Secretary",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/hridhay-kutty-56483a239/"
@@ -501,7 +501,7 @@
       },
       {
         "name": "Atharva Neglur",
-        "image": "https://www.coeprobotics.com/assets/team/atharva-neglur",
+        "image": "https://www.coeprobotics.com/assets/team/atharva-neglur.jpg",
         "designation": "Joint Secretary",
         "socials": {
           "linkedin": "www.linkedin.com/in/atharvaneglur"
@@ -509,7 +509,7 @@
       },
       {
         "name": "Aditya More",
-        "image": "https://www.coeprobotics.com/assets/team/aditya-more",
+        "image": "https://www.coeprobotics.com/assets/team/aditya-more.jpg",
         "designation": "Secretary",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/aditya-more-0a4035212/"
@@ -517,7 +517,7 @@
       },
       {
         "name": "Anish Patil",
-        "image": "https://www.coeprobotics.com/assets/team/anish-patil",
+        "image": "https://www.coeprobotics.com/assets/team/anish-patil.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/anish-patil-6083a3230/"
@@ -525,7 +525,7 @@
       },
       {
         "name": "Anish Patil",
-        "image": "https://www.coeprobotics.com/assets/team/anish-patil-m",
+        "image": "https://www.coeprobotics.com/assets/team/anish-patil-m.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/anishcpatil/"
@@ -533,7 +533,7 @@
       },
       {
         "name": "Ayush Ambhorkar",
-        "image": "https://www.coeprobotics.com/assets/team/ayush-ambhorkar",
+        "image": "https://www.coeprobotics.com/assets/team/ayush-ambhorkar.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/ayush-ambhorkar-827628223/"
@@ -541,7 +541,7 @@
       },
       {
         "name": "Jiten Topiwala",
-        "image": "https://www.coeprobotics.com/assets/team/jiten-topiwala",
+        "image": "https://www.coeprobotics.com/assets/team/jiten-topiwala.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/jitentopiwala"
@@ -549,7 +549,7 @@
       },
       {
         "name": "Yash Gavit",
-        "image": "https://www.coeprobotics.com/assets/team/yash-gavit",
+        "image": "https://www.coeprobotics.com/assets/team/yash-gavit.jpg",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/yash-gavit-2ab657229/"
