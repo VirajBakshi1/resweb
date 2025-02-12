@@ -1723,57 +1723,147 @@
       
       "awardsData": [
         {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Autodesk_24.jpg",
+          "name": "Autodesk Fusion",
+          "year": "2024",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Fire-Fighter.jpg",
+          "name": "Fire Fighter",
+          "year": "2024",
+          "position": "3rd Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Enterpreneurship.jpg",
+          "name": "Enterpreneurship Challenge",
+          "year": "2024",
+          "position": "2nd Place"
+        },
+        {
           "image": "https://www.coeprobotics.com/assets/Achivements/3kgsumo.jpg",
           "name": "3kg RoboSumo",
           "year": "2023",
           "position": "3rd Place"
         },
         {
-          "image": "https://trainingzone.co.uk/app/uploads/2020/03/athitat_shinagowin.jpg",
-          "name": "Best Design Award",
-          "year": "2022",
-          "position": "1st Place"
-        },
-        {
-          "image": "https://www.ripleypr.com/blog/wp-content/uploads/2017/03/Awards-are-important.jpg",
-          "name": "Innovation Award",
+          "image": "https://www.coeprobotics.com/assets/Achivements/Maze_Solver.jpg",
+          "name": "Maze Solver",
           "year": "2023",
-          "position": "2nd Place"
-        },
-        {
-          "image": "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-          "name": "Excellence in Engineering",
-          "year": "2024",
-          "position": "Winner"
-        },
-        {
-          "image": "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-          "name": "Outstanding Achievement",
-          "year": "2021",
           "position": "3rd Place"
         },
         {
-          "image": "https://trainingzone.co.uk/app/uploads/2020/03/athitat_shinagowin.jpg",
-          "name": "Best Design Award",
-          "year": "2022",
+          "image": "https://www.coeprobotics.com/assets/Achivements/Mindspark.jpg",
+          "name": "Mindspark",
+          "year": "2023",
           "position": "1st Place"
         },
         {
-          "image": "https://www.ripleypr.com/blog/wp-content/uploads/2017/03/Awards-are-important.jpg",
-          "name": "Innovation Award",
+          "image": "https://www.coeprobotics.com/assets/Achivements/Maathwork23.jpg",
+          "name": "Mathwork Modeling",
           "year": "2023",
-          "position": "2nd Place"
+          "position": "1st Place"
         },
         {
-          "image": "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-          "name": "Excellence in Engineering",
-          "year": "2024",
-          "position": "Winner"
+          "image": "https://www.coeprobotics.com/assets/Achivements/Robotex_rank2.jpg",
+          "name": "ROBOTEX",
+          "year": "2023",
+          "position": "1st Place"
         },
         {
-          "image": "https://t4.ftcdn.net/jpg/02/10/96/95/360_F_210969565_cIHkcrIzRpWNZzq8eaQnYotG4pkHh0P9.jpg",
-          "name": "Outstanding Achievement",
-          "year": "2021",
+          "image": "https://www.coeprobotics.com/assets/Achivements/robotex_1.jpg",
+          "name": "ROBOTEX",
+          "year": "2023",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Judge20.jpg",
+          "name": "Judge Special Award",
+          "year": "2020",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Maathwork2019.jpg",
+          "name": "Mathwork Modeling",
+          "year": "2019",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/asthetic18.jpg",
+          "name": "Best Asthetic Award",
+          "year": "2018",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/operator18.jpg",
+          "name": "Best Manual Operator",
+          "year": "2018",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Robocon17.jpg",
+          "name": "ROBOCON",
+          "year": "2017",
+          "position": "3rd Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/ides17.jpg",
+          "name": "Best Ideation Award",
+          "year": "2017",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/job17.jpg",
+          "name": "Fastest Job Completion",
+          "year": "2017",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Maathworks_17.jpg",
+          "name": "Mathwork Modeling",
+          "year": "2017",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/KPIT_Sparkle.jpg",
+          "name": "KPTI Sparkle",
+          "year": "2017",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Robocon2016.jpg",
+          "name": "ROBOCON",
+          "year": "2016",
+          "position": "3rd Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/job16.jpg",
+          "name": "Fastest Job Completion",
+          "year": "2016",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/operator16.jpg",
+          "name": "Best Manual Operator",
+          "year": "2016",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/innovative2015.jpg",
+          "name": "Best Innovative Design",
+          "year": "2015",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Innovative2013.jpg",
+          "name": "Best Innovative Design",
+          "year": "2013",
+          "position": "1st Place"
+        },
+        {
+          "image": "https://www.coeprobotics.com/assets/Achivements/Robocon_2012.jpg",
+          "name": "ROBOCON",
+          "year": "2012",
           "position": "3rd Place"
         }
       ]
