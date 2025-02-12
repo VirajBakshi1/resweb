@@ -19,7 +19,14 @@
           "link": "/robocon",
           "reverse": true
         },
-         {
+        {
+          "id": "projects",
+          "title": "Our Projects",
+          "description": "The Robot Study Club (RSC) of COEP has developed groundbreaking robotic systems that push the boundaries of engineering and automation. Our projects span various domains, from bio-inspired robotics to advanced control systems. The Soft Robotics - Jellyfish project explores fluid dynamics and soft actuators, mimicking the natural movement of jellyfish for underwater applications. The Self-Balancing Cube demonstrates advanced control theory and dynamic stability using reaction wheels. Our Wall Climbing Robot is designed for industrial inspections, capable of scaling vertical surfaces with innovative adhesion mechanisms. The Jumping Robot utilizes energy-efficient mechanisms to navigate extreme terrain by leaping over obstacles. Additionally, we leverage the Robot Operating System (ROS) to develop intelligent, autonomous systems, integrating sensor data and enhancing robotic control. These projects showcase RSC's expertise in robotics, AI, and automation, setting new benchmarks in innovation.",
+          "image": "/api/placeholder/800/600",
+          "link": "/projects"
+        },
+        {
         "id": "outreach",
         "title": "Social Outreach",
         "description": "At RSC, we believe in making technology accessible to all. Through workshops, STEM education programs, and community-driven initiatives, we inspire young minds to explore robotics and technology. Our team actively visits schools to teach students about robotics, electronics, and programming, conducting hands-on training sessions to spark curiosity and innovation. Whether it is mentoring aspiring engineers or organizing tech camps, we are committed to empowering the next generation of innovators.",
@@ -27,14 +34,7 @@
         "image": "/api/placeholder/800/600",
         "link": "/outreach",
         "reverse": true
-      },
-      {
-        "id": "projects",
-        "title": "Our Projects",
-        "description": "The Robot Study Club (RSC) of COEP has developed groundbreaking robotic systems that push the boundaries of engineering and automation. Our projects span various domains, from bio-inspired robotics to advanced control systems. The Soft Robotics - Jellyfish project explores fluid dynamics and soft actuators, mimicking the natural movement of jellyfish for underwater applications. The Self-Balancing Cube demonstrates advanced control theory and dynamic stability using reaction wheels. Our Wall Climbing Robot is designed for industrial inspections, capable of scaling vertical surfaces with innovative adhesion mechanisms. The Jumping Robot utilizes energy-efficient mechanisms to navigate extreme terrain by leaping over obstacles. Additionally, we leverage the Robot Operating System (ROS) to develop intelligent, autonomous systems, integrating sensor data and enhancing robotic control. These projects showcase RSC's expertise in robotics, AI, and automation, setting new benchmarks in innovation.",
-        "image": "/api/placeholder/800/600",
-        "link": "/projects"
-      }
+        }
       ]
     },
 
@@ -381,7 +381,7 @@
     "facad": [
       {
         "name": "Dr. S. S. OHOL",
-        "image": "https://www.coeprobotics.com/assets/team/dr-s-s-ohol.jpg",
+        "image": "https://www.coeprobotics.com/assets/team/Ohol.jpg",
         "designation": "Faculty Advisor",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/dr-shantipal-ohol-8547b620?originalSubdomain=in",
