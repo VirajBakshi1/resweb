@@ -2080,11 +2080,10 @@
       ],
       "sections": [
         {
-          "title": "Introduction",
-          "content": "MindSpark is the annual, national-level technical festival of COEP Tech. Since its inception in 2007, MindSpark has been igniting innovation and creativity. Evolving from modest beginnings, it celebrates intellect, teamwork, and competition. We aspire to give thinkers a stage to speak and to give creators an opportunity to build by transpiring revolution though innovation."
+          "content": "MindSpark, the flagship tech fest of COEP Technological University, brings together over 25,000 tech enthusiasts from across India. Known for its exciting robotics challenges, hackathons, and workshops, the event pushes the boundaries of innovation in fields like automation and AI. It’s a platform where students showcase their talents, learn from industry leaders, and engage in impactful social initiatives like Paakhi. MindSpark continues to ignite the future of technology with its unmatched energy and vision."
         },
         {
-          "title": "Events organized by RSC",
+          "title": "Robotica",
           "content": "At MindSpark, we host a dedicated module called Robotica, which serves as a hub for all robotics-related events and competitions. This platform showcases a diverse range of challenges, fostering innovation, technical skills, and problem-solving abilities among participants. Through Robotica, we aim to inspire the next generation of engineers and roboticists on a national stage."
         },
         {
@@ -2108,7 +2107,6 @@
       ],
       "sections": [
         {
-          "title": "Transforming Education Through Robotics: An Introduction to Robotex India",
           "content": "Founded in 2018, Robotex India is a non-profit organization committed to bridging the digital divide and making robotics, AI, and IoT education accessible to underserved communities across India. With a focus on students from government, rural, and tribal schools, the organization has empowered over 20,000 young minds by offering hands-on learning opportunities. By helping students develop innovative solutions in areas like agriculture, sustainability, and education, Robotex India is paving the way for the next generation of tech leaders in an increasingly technology-driven world."
         },
         {
@@ -2123,26 +2121,55 @@
         },
         
         {
-          "title": "Our Role in Robotex India Competition",
-          "content": "At Robot Study Circle, we take immense pride in our pivotal role in organizing the Robotex India National Level Competition, a premier event in the field of robotics and innovation. Held this year at MITADT, we were responsible for overseeing a wide array of responsibilities, including referee work, robot inspection, and volunteering. Our team worked meticulously to ensure that the event ran smoothly and efficiently, maintaining the highest standards of fairness and technical precision."
+          "title": "Robot Study Circle at Robotex India",
+          "content": [
+            "Robot Study Circle (RSC) played a crucial role in organizing the Robotex India National Level Competition, a premier robotics and innovation event. Hosted at MIT-ADT University, this prestigious competition brought together top talent from across the country, and RSC was at the forefront of ensuring its smooth execution.",
+            {
+              "points": [
+                "Oversaw key responsibilities, including referee work, robot inspection, and volunteering.",
+                "Ensured adherence to technical standards, fairness, and competition integrity.",
+                "Managed event logistics to create a seamless and efficient competition experience.",
+                "Worked alongside MIT-ADT University and Robotex India to uphold the highest standards of excellence."
+              ]
+            },
+            "As referees, we meticulously evaluated the technical accuracy of every robot, ensuring compliance with competition rules. Our team also provided valuable feedback to participants, helping them refine their designs and enhance performance. The robot inspection process was systematic and thorough, guaranteeing fair competition and adherence to technical specifications."
+          ]
         },
         {
-          "content": "Our involvement was critical in managing the entire logistics of the competition, ensuring that each participating team adhered to the rules while maintaining the integrity of the competition. As referees, we not only ensured the technical correctness of every robot but also provided guidance and feedback to the participants, helping them improve their designs and performance. The robot inspection process was thorough and systematic, guaranteeing that all the machines complied with the competition’s specifications, ensuring a fair and transparent experience for every team involved."
-        },
-        {
-          "content": "In addition to our technical roles, we also took charge of volunteering, assisting in managing event operations, coordinating with teams, and ensuring that every aspect of the competition ran without a hitch. Our volunteers played a key role in offering assistance and providing a seamless experience to both participants and organizers. This experience of organizing and managing such a prestigious event has allowed us to strengthen our technical and organizational capabilities, further establishing Robot Study Circle as a key contributor to India’s growing robotics ecosystem. By contributing to the Robotex India National Level Competition, we not only helped execute a world-class event but also created a platform for students, enthusiasts, and professionals to come together, exchange ideas, and foster the growth of robotics and technological education in India. Through these efforts, we continue to uphold our commitment to nurturing the next generation of innovators and ensuring that robotics education remains accessible to all."
+          "title": "Impact and Contributions",
+          "content": [
+            "Beyond technical roles, RSC actively contributed to event management, coordination, and participant support. Our team worked closely with MIT-ADT University and Robotex India to ensure a world-class competition experience.",
+            {
+              "points": [
+                "Referees maintained strict rule enforcement while guiding participants in improving their robots.",
+                "Thorough robot inspections ensured fairness and adherence to competition regulations.",
+                "Volunteers facilitated event operations, including scheduling, team coordination, and on-ground support.",
+                "Worked in collaboration with MIT-ADT University to streamline communication and logistics.",
+                "Strengthened RSC’s technical expertise, organizational skills, and leadership through hands-on involvement."
+              ]
+            },
+            "Organizing such a prestigious event reinforced RSC’s commitment to fostering innovation and supporting India’s growing robotics ecosystem. By working closely with MIT-ADT University and Robotex India, we helped create an inclusive platform for students, professionals, and enthusiasts to showcase their skills and exchange ideas.",
+            {
+              "points": [
+                "Enabled participants to compete and innovate on a national stage.",
+                "Encouraged teamwork, knowledge sharing, and problem-solving in robotics.",
+                "Played a significant role in advancing robotics education and accessibility.",
+                "Continued RSC’s mission to nurture future innovators through robotics and technology-driven learning."
+              ]
+            },
+            "By contributing to the Robotex India National Level Competition at MIT-ADT University, RSC successfully executed a world-class event, furthering our vision of making robotics education more accessible and impactful across India."
+          ]
         }
       ]
     },
     "FTC":{
       "imageArray": [
-        "https://www.coeprobotics.com/assets/Organizing/FTC/FTC-4.jpg",
-        "https://www.coeprobotics.com/assets/Organizing/FTC/FTC-1.jpg",
-        "https://www.coeprobotics.com/assets/Organizing/FTC/FTC-5.jpg"
+        "https://www.coeprobotics.com/assets/Organizing/FTC/FTC-4",
+        "https://www.coeprobotics.com/assets/Organizing/FTC/FTC-1",
+        "https://www.coeprobotics.com/assets/Organizing/FTC/FTC-5"
       ],
       "sections": [
         {
-          "title": "About FTC India",
           "content": "FTC India (FIRST Tech Challenge India) is part of the global FIRST Tech Challenge (FTC) program, aimed at inspiring students to become future leaders in science, technology, engineering, and mathematics (STEM). It provides students from grades 7 to 12 with a platform to design, build, and program robots that compete in exciting head-to-head challenges."
         },
         {
@@ -2173,15 +2200,15 @@
       "sections": [
         {
           "title": "Community Outreach Program – Mangaon, Raigad (October 15th, 2022)",
-          "content": "On October 15th, 2022, the Robot Study Circle (RSC) in collaboration with the NSS at the College of Engineering Pune (COEP) organized an impactful social outreach program at Mangaon, Raigad. The event aimed to raise awareness about robotics and its potential in various sectors, from education to industry, for rural and underdeveloped communities.\n\nThe event included live demonstrations of advanced robots such as the NAO-6 humanoid robot, RoboSapien, and the Genibo robot, which are capable of performing human-like tasks and demonstrating the potential of artificial intelligence in robotics. These robots were showcased as part of a hands-on session that allowed students and attendees to interact with the technology, gaining insights into the future of robotics and automation.\n\nThe demonstrations were conducted by:\n- Koustubh Anturkar\n- Chinmay Patil\n- Ayush Amborkar\n- Atharv Neglur\n\nThis initiative was designed to ignite curiosity in students and local residents, inspiring them to explore robotics and its applications in daily life. The event also served as a platform to connect the technical community at COEP with rural areas, fostering an inclusive technological ecosystem. The interaction sessions provided an opportunity for people to ask questions, discuss the future of robotics, and understand how these technologies can solve real-world problems.\n\nThe event not only emphasized the importance of technology in the modern world but also aimed to inspire and educate the next generation of innovators in rural India."
+          "content": "On October 15th, 2022, the Robot Study Circle (RSC) and NSS at COEP organized a robotics outreach program in Mangaon, Raigad, to raise awareness about robotics in rural areas. Live demonstrations of robots like NAO-6, RoboSapien, and Genibo showcased AI and automation, engaging students through hands-on interactions. Conducted by Koustubh Anturkar, Chinmay Patil, Ayush Amborkar, and Atharv Neglur, the event aimed to ignite curiosity and connect COEP’s technical community with rural India, inspiring future innovators."
         },
         {
           "title": "Mathematics Day – Demonstration of NAO, Genibo Robot, and Drone (22nd December, 2022)",
-          "content": "On the occasion of Mathematics Day, celebrated on 22nd December 2022, the Robot Study Circle (RSC) at the College of Engineering Pune (COEP) conducted an engaging robotics demonstration to highlight the intersection of mathematics, technology, and robotics. The event showcased the potential of advanced robotics in various fields, with a focus on how mathematics plays a critical role in the design and functioning of robots.\n\nThe demonstrations featured the NAO humanoid robot, the Genibo robot, and a Drone, all of which are capable of performing precise and complex tasks that rely heavily on mathematical algorithms for control and navigation.\n\nThe event included live interaction with the robots, where attendees witnessed firsthand how mathematical principles are applied to robotics, from motion control to path planning.\n\nThe demonstrations were conducted by:\n- Ayush Amborkar\n- Atharv Neglur\n\nThis session was designed to inspire students and attendees, highlighting the importance of mathematics in technology and encouraging them to explore careers in STEM fields. The event also showcased the potential of robotics and drones in revolutionizing industries such as education, healthcare, and logistics. By combining hands-on learning with theoretical knowledge, the event aimed to foster a deeper understanding of how robotics can be integrated into various applications, enhancing the technological ecosystem at COEP and beyond."
+          "content": "On Mathematics Day (22nd December 2022), the Robot Study Circle (RSC) at COEP showcased the vital role of mathematics in robotics through live demonstrations of the NAO humanoid, Genibo robot, and a drone. Conducted by Ayush Amborkar and Atharv Neglur, the event highlighted how mathematical algorithms power motion control and navigation. Attendees engaged with the robots firsthand, gaining insights into their applications in fields like education, healthcare, and logistics. The session aimed to inspire students to explore STEM careers and the future of robotics."
         },
         {
           "title": "Electronics and Robotics Workshops at Camp Education Society School (June-July 2024)",
-          "content": "In June and July of 2024, the Robot Study Circle (RSC) at COEP joined hands with Camp Education Society School to introduce students of the 9th and 10th grades to the fundamentals of electronics and robotics.\n\nThese interactive workshops aimed to provide students with foundational knowledge and practical experience in these fascinating fields.\n\n**Workshop Overview**:\n- **Dates**: June-July 2024\n- **Schedule**: 2-3 sessions per week, held on alternate days\n- **Target Group**: Students of 9th and 10th grades\n- **Key Topics**: Introduction to electronics, basic robotics principles, sensor-based applications\n\nLed by enthusiastic RSC volunteers, these sessions combined theory and hands-on activities, allowing students to experiment with electronics and build simple robotic systems. The workshops sought to spark students' interest in STEM disciplines by demonstrating how these technologies can be applied to real-world scenarios.\n\n**Facilitators**:\n- Tejas Nirwan\n- Laya Kshetrapal\n- Kavish Patil\n- Saatvika Udayakumar\n- Dhiraj Patil\n\nThroughout the sessions, the students engaged in practical exercises and gained insight into the exciting world of electronics and robotics. This initiative not only broadened their horizons but also motivated them to explore careers in engineering and technology in the future."
+          "content": "In June-July 2024, the Robot Study Circle (RSC) at COEP collaborated with Camp Education Society School to introduce 9th and 10th graders to electronics and robotics. Led by Tejas Nirwan, Laya Kshetrapal, Kavish Patil, Saatvika Udayakumar, and Dhiraj Patil, the workshops combined theory and hands-on activities, covering sensors and basic robotics principles. The sessions sparked students’ interest in STEM, inspiring them to explore careers in technology and engineering."
         }
 
       ]
@@ -2230,14 +2257,17 @@
           ]
         },
       "workshops": {
-        "title": "Workshops on Robotics",
-        "description": "The Robotics Society (TRS) Student Chapter at COEP Technological University provides students with a unique opportunity to learn from industry experts and robotics enthusiasts. Our workshops feature engaging sessions where speakers showcase their robots, share insights on emerging technologies, and discuss advancements in the field. These interactive experiences offer students valuable exposure to real-world robotics, inspiring them to innovate and explore new possibilities. The workshops include:\n- Demonstration of NMR 145 Customized Mobile Manipulator Robot by Mr. Aditya Marathe: A demonstration showcasing the NMR 145, a customized mobile manipulator robot, with insights into its design, functionality, and real-world applications.\n- Demonstration of RoboDK Software: A session on RoboDK, a versatile software used for simulation, programming, and controlling industrial robots, with practical examples of its usage in optimizing robotic workflows.\n- Interaction Session with Esteemed RSC Alumni, featuring Dr. Pratap Tokekar (Associate Professor, Maryland University) and Dr. Abhishek Nagaraja (Associate Professor, Berkeley University): A discussion on their journey in robotics research, insights into academia, and advice for students pursuing careers in robotics.\n- Workshop and Demonstration of Industrial Robot by Rigbetel Labs: A hands-on session introducing students to industrial robots, with demonstrations on their programming and applications in manufacturing, automation, and logistics."
-      }
-
-      }
-    
-  
-    },
+            "title": "Workshops on Robotics",
+            "description": "The Robotics Society (TRS) Student Chapter at COEP Technological University provides students with a unique opportunity to learn from industry experts and robotics enthusiasts. Our workshops feature engaging sessions where speakers showcase their robots, share insights on emerging technologies, and discuss advancements in the field. These interactive experiences offer students valuable exposure to real-world robotics, inspiring them to innovate and explore new possibilities.",
+            "sessions": [
+              "Demonstration of NMR 145 Customized Mobile Manipulator Robot by Mr. Aditya Marathe: A demonstration showcasing the NMR 145, a customized mobile manipulator robot, with insights into its design, functionality, and real-world applications.",
+              "Demonstration of RoboDK Software: A session on RoboDK, a versatile software used for simulation, programming, and controlling industrial robots, with practical examples of its usage in optimizing robotic workflows.",
+              "Interaction Session with Esteemed RSC Alumni, featuring Dr. Pratap Tokekar (Associate Professor, Maryland University) and Dr. Abhishek Nagaraja (Associate Professor, Berkeley University): A discussion on their journey in robotics research, insights into academia, and advice for students pursuing careers in robotics.",
+              "Workshop and Demonstration of Industrial Robot by Rigbetel Labs: A hands-on session introducing students to industrial robots, with demonstrations on their programming and applications in manufacturing, automation, and logistics."
+            ]
+          }
+        }
+      },
 
     "IEEE": {
       "introduction": [
