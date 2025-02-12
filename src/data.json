@@ -1266,7 +1266,7 @@
         "description": "Part of Mindspark 2024 and consisted of a manually operated Pick-and-Place Robot ",
         "details": "Won 2nd Runners-Up",
         "images": [
-          "/src/assets/Competitions/Roboroyale2024",
+          "https://www.coeprobotics.com/src/assets/Competitions/Roboroyale2024.jpg",
           "https://www.ripplesnigeria.com/wp-content/uploads/2024/08/images-23-1.jpeg",
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3wcmPATKyfJuapccpoU1UlCE4yiwhb1aYD-_Rqd4d7Ltulc6rVbb9_cx7hNVTgw409o&usqp=CAU"
         ]
@@ -1288,8 +1288,8 @@
         "description": "The FireFighter competition, part of Robotex 2024, consisted of an Autonomous Fire Extinguishing Robot capable of extinguishing candles ",
         "details": "Won 2nd Runners-Up",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/FireFighter-2024-1",
-          "https://www.coeprobotics.com/assets/Competitions/FireFighter-2024-2",
+          "https://www.coeprobotics.com/assets/Competitions/FireFighter-2024-1.jpg",
+          "https://www.coeprobotics.com/assets/Competitions/FireFighter-2024-2.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
       },
@@ -1321,7 +1321,7 @@
         "description": "Part of Robotex India held in 2023 ",
         "details": "Won Third Place",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Sumo-2023",
+          "https://www.coeprobotics.com/assets/Competitions/Sumo-2023.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1387,7 +1387,7 @@
         "description": "Part of the Regional Robotex 2019 in Pune",
         "details": "Won 1st Runners-Up",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Line-Follower-2019",
+          "https://www.coeprobotics.com/assets/Competitions/Line-Follower-2019.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1398,7 +1398,7 @@
         "description": " Held in the annual technical festival of COEP- Mindspark 2018.",
         "details": "Won 1st Runners-Up and 2nd Runners Up",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Search-&-Destroy-2017",
+          "https://www.coeprobotics.com/assets/Competitions/Search-&-Destroy-2017.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1409,7 +1409,7 @@
         "description": "Held By DRDO ",
         "details": "2nd Runners-Up in DRDO’s Robotics and Unmanned System Exposition Competition in India winning cash prize of Rs. 50,000/-",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/DRDO-2018",
+          "https://www.coeprobotics.com/assets/Competitions/DRDO-2018.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1442,7 +1442,7 @@
         "description": "Part of Mindspark 2017 organized by COEP ",
         "details": "Winner and 1st Runner-Up",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Search-&-Destroy-2017",
+          "https://www.coeprobotics.com/assets/Competitions/Search-&-Destroy-2017.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
@@ -1464,7 +1464,7 @@
         "description": "Represented India in IRC International at Techfest 2015-16 ",
         "details": "",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/IRC-2016",
+          "https://www.coeprobotics.com/assets/Competitions/IRC-2016.jpg",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.55.57_PM.png",
           "/src/assets/vex_2021/Screenshot_2021-10-21_at_12.56.52_PM.png"
         ]
