@@ -382,17 +382,41 @@
     ],
     "secondYear": [
       {
-        "name": "Samruddhi Nighrunkar",
-        "image": "https://www.coeprobotics.com/assets/team/samruddhi-nighrunkar.jpg",
-        "designation": "Member",
-        "socials": {}
-      },
-      {
         "name": "Laya Kshetrapal",
         "image": "https://www.coeprobotics.com/assets/team/laya_kshetrapal.png",
         "designation": "Member",
         "socials": {
           "linkedin": "https://www.linkedin.com/in/laya-kshetrapal-9615b927a/"
+        }
+      },
+      {
+        "name": "Kavish Patil",
+        "image": "https://www.coeprobotics.com/assets/team/kavish-patil.jpg",
+        "designation": "Member",
+        "socials": {}
+      },
+      {
+        "name": "Tejas Nirwan",
+        "image": "https://www.coeprobotics.com/assets/team/tejas-nirwan.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/tejas-nirwan-43a779291/"
+        }
+      },
+      {
+        "name": "Saatvika Udayakumar",
+        "image": "https://www.coeprobotics.com/assets/team/saatvika-u.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/saatvika-udayakumar-441901313/"
+        }
+      },
+      {
+        "name": "Dhiraj Patil",
+        "image": "https://www.coeprobotics.com/assets/team/dhiraj-patil.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/dhiraj-patil-a2150729b/"
         }
       },
       {
@@ -404,33 +428,25 @@
         }
       },
       {
-        "name": "Kavish Patil",
-        "image": "https://www.coeprobotics.com/assets/team/kavish-patil.jpg",
+        "name": "Siya Jadhao",
+        "image": "https://www.coeprobotics.com/assets/team/siya-jadhao.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/siya-jadhao-12052328b/"
+        }
+      },
+      {
+        "name": "Samruddhi Nighrunkar",
+        "image": "https://www.coeprobotics.com/assets/team/samruddhi-nighrunkar.jpg",
         "designation": "Member",
         "socials": {}
       },
       {
-        "name": "Saatvika Udayakumar",
-        "image": "https://www.coeprobotics.com/assets/team/saatvika-u.jpg",
+        "name": "Shreya Muley",
+        "image": "https://www.coeprobotics.com/assets/team/shreya-muley.jpg",
         "designation": "Member",
         "socials": {
-          "linkedin": "https://www.linkedin.com/in/saatvika-udayakumar-441901313/"
-        }
-      },
-      {
-        "name": "Tejas Nirwan",
-        "image": "https://www.coeprobotics.com/assets/team/tejas-nirwan.jpg",
-        "designation": "Member",
-        "socials": {
-          "linkedin": "https://www.linkedin.com/in/tejas-nirwan-43a779291/"
-        }
-      },
-      {
-        "name": "Dhiraj Patil",
-        "image": "https://www.coeprobotics.com/assets/team/dhiraj-patil.jpg",
-        "designation": "Member",
-        "socials": {
-          "linkedin": "https://www.linkedin.com/in/dhiraj-patil-a2150729b/"
+          "linkedin": "https://www.linkedin.com/in/shreya-muley-2a57482ab"
         }
       },
       {
@@ -447,14 +463,6 @@
         "designation": "Member",
         "socials": {
           "linkedin": "www.linkedin.com/in/saleel-mutalik-b9253427b"
-        }
-      },
-      {
-        "name": "Shreya Muley",
-        "image": "https://www.coeprobotics.com/assets/team/shreya-muley.jpg",
-        "designation": "Member",
-        "socials": {
-          "linkedin": "https://www.linkedin.com/in/shreya-muley-2a57482ab"
         }
       },
       {
@@ -478,14 +486,6 @@
         "image": "https://www.coeprobotics.com/assets/team/aditya-mane.jpg",
         "designation": "Member",
         "socials": {}
-      },
-      {
-        "name": "Siya Jadhao",
-        "image": "https://www.coeprobotics.com/assets/team/siya-jadhao.jpg",
-        "designation": "Member",
-        "socials": {
-          "linkedin": "https://www.linkedin.com/in/siya-jadhao-12052328b/"
-        }
       },
       {
         "name": "Arpit Khole",
