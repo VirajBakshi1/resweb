@@ -1997,23 +1997,23 @@
     "Media Coverage":{
       "articlesData": [
         {
-          "image": "src/assets/media/photo1.png",
+          "image": "https://www.coeprobotics.com/assets/Media/media_1.jpg",
           "title": "Featured in Tech Today - Breakthrough Robotics"
         },
         {
-          "image": "https://example.com/article2.jpg",
+          "image": "https://www.coeprobotics.com/assets/Media/media_2.jpg",
           "title": "Innovative Engineering Solutions - COEP Highlights"
         },
         {
-          "image": "https://example.com/article3.jpg",
+          "image": "https://www.coeprobotics.com/assets/Media/media_3.jpg",
           "title": "National Robotics Champion - 2023 Award"
         },
         {
-          "image": "https://example.com/article4.jpg",
+          "image": "https://www.coeprobotics.com/assets/Media/media_4.jpg",
           "title": "Startup Ecosystem Success Stories - Pune Edition"
         },
         {
-          "image": "https://example.com/article5.jpg",
+          "image": "https://www.coeprobotics.com/assets/Media/media_5.jpg",
           "title": "Future of AI and Robotics - In Conversation with Experts"
         }
       ]
