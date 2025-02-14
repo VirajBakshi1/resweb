@@ -1,21 +1,12 @@
 import React, { useState } from 'react';
 import data from '../../data.json';
 
-const PhotoWithInfo = ({ image, index }) => {
+const PhotoWithInfo = ({ imageData, index }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const titles = [
-    "ABU ROBOCON THEME 2022",
-    "National Competition Highlights",
-    "Engineering Excellence"
-  ];
-  const descriptions = [
-    "Experience the traditional game of Lagori in a modern robotics context.",
-    "Showcasing India's best robotics talent at the national level.",
-    "Promoting innovation and technical expertise in robotics."
-  ];
 
   return (
-    <div className="relative group h-full"
+    <div 
+      className="relative group h-full"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -34,8 +25,8 @@ const PhotoWithInfo = ({ image, index }) => {
         {/* Image container with overlay */}
         <div className="relative h-52 overflow-hidden">
           <img
-            src={image}
-            alt={titles[index]}
+            src={imageData.src}
+            alt={imageData.title}
             className="w-full h-full object-cover transition-all duration-500
               transform group-hover:scale-110"
           />
@@ -48,10 +39,10 @@ const PhotoWithInfo = ({ image, index }) => {
           <h3 className="text-lg font-bold mb-3 bg-gradient-to-r from-cyan-400 via-blue-400 
             to-purple-400 bg-clip-text text-transparent group-hover:bg-gradient-to-l 
             transition-all duration-1000">
-            {titles[index]}
+            {imageData.title}
           </h3>
           <p className="text-blue-100/70 group-hover:text-blue-100 transition-colors duration-300">
-            {descriptions[index]}
+            {imageData.description}
           </p>
         </div>
 
@@ -107,7 +98,7 @@ const Mindspark = () => {
         {/* Main title with glow effect */}
         <h1 className="text-6xl font-bold text-center mb-16">
           <span className="relative inline-block">
-            <span className="absolute inset-0  opacity-50"></span>
+            <span className="absolute inset-0 opacity-50"></span>
             <span className="relative bg-gradient-to-r from-cyan-400 via-blue-400 
               to-purple-400 bg-clip-text text-transparent">
               MINDSPARK
@@ -115,17 +106,17 @@ const Mindspark = () => {
           </span>
         </h1>
 
-        {/* Images Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {imageArray.map((image, index) => (
-            <PhotoWithInfo key={index} image={image} index={index} />
+        {/* Content Sections */}
+        <div className="space-y-8 mb-12">
+          {sections.map((section, index) => (
+            <ContentSection key={index} section={section} />
           ))}
         </div>
 
-        {/* Content Sections */}
-        <div className="space-y-8">
-          {sections.map((section, index) => (
-            <ContentSection key={index} section={section} />
+        {/* Images Grid - Moved to bottom */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {imageArray.map((image, index) => (
+            <PhotoWithInfo key={index} imageData={image} index={index} />
           ))}
         </div>
       </div>
