@@ -7,7 +7,7 @@
           "title": "Robot Study Club",
           "description": "The Robot Study Club (RSC) of COEP Technological University is a hub of innovation, where students design, build, and compete with cutting-edge robots. From autonomous systems to AI-driven machines, we push the limits of technology. RSC has earned national and international recognition in competitions like RoboCon, ABU RoboCon, and Techfest, proving our expertise in robotics and automation. Join us as we shape the future of intelligent machines!",
           "buttonText": "Explore RSC",
-          "image": "/api/placeholder/800/600",
+          "image": "https://www.coeprobotics.com/assets/Home/home_2.jpg",
           "link": "/rsc"
         },
         {
@@ -15,7 +15,7 @@
           "title": "Robocon Legacy",
           "description": "COEP's Robot Study Club has a rich legacy in Robocon, India's premier robotics competition. With years of dominance, we have built some of the most advanced autonomous and manually controlled robots, winning accolades at both national and international levels. Our journey in ABU Robocon showcases innovation, teamwork, and engineering excellence, setting benchmarks in precision and performance.",
           "buttonText": "Our Robocon Journey",
-          "image": "/api/placeholder/800/600",
+          "image": "https://www.coeprobotics.com/assets/Home/home_2.jpg",
           "link": "/robocon",
           "reverse": true
         }
@@ -1087,7 +1087,7 @@
         "description": "The challenge was to play rugby 7's with two robots and five obstacles as defending players.",
         "details": "Judges' Special Award, Placed 6th overall",
         "images": [
-          "https://www.coeprobotics.com/assets/Robocon/Robocon_20_1.jpg"
+          "https://www.coeprobotics.com/assets/Robocon/robocon_20_1.jpg"
         ]
       },
       {
