@@ -1459,12 +1459,12 @@
       },
       {
         "name": "ROBOT TECHNOLOGIES",
-        "logo": "src/assets/sponsors/Robotechnologies.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/robottech.jpg",
         "website": "https://www.robottechnologies.com"
       },
       {
         "name": "SIEMENS",
-        "logo": "src/assets/sponsors/simens.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/siemens.jpg",
         "website": "https://www.siemens.com"
       },
       {
@@ -1489,42 +1489,42 @@
       },
       {
         "name": "ROHM Semiconductor",
-        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/rohm.jpg",
         "website": "https://www.rohm.com"
       },
       {
         "name": "KUKA Robotics",
-        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/kuka.jpg",
         "website": "https://www.kuka.com"
       },
       {
         "name": "Festo",
-        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/festo.jpg",
         "website": "https://www.festo.com"
       },
       {
         "name": "National Instruments",
-        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "logo": "https://www.coeprobotics.com/assets/sponser/ni.jpg",
         "website": "https://www.ni.com"
       },
       {
         "name": "Phoenix Contact",
-        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "logo": "https://www.coeprobotics.com/assets/sponser/pheonix.jpg",
         "website": "https://www.phoenixcontact.com"
       },
       {
         "name": "ABB",
-        "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l5V8aUH7qXAewG4CbV4QD3g7Uv65uZwk4sxuQj19bKwg=s900-c-k-c0x00ffffff-no-rj",
+        "logo": "https://www.coeprobotics.com/assets/sponser/abb.jpg",
         "website": "https://www.abb.com"
       },
       {
         "name": "Bosch Rexroth",
-        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/bosch.jpg",
         "website": "https://www.boschrexroth.com"
       },
       {
         "name": "Rockwell Automation",
-        "logo": "https://d3docvychcku54.cloudfront.net/media/amasty/shopby/option_images/slider/Janatics_Pneumatics_logo.png",
+        "logo": "https://www.coeprobotics.com/assets/sponser/rockwell.jpg",
         "website": "https://www.rockwellautomation.com"
       }
     ],
