@@ -1057,9 +1057,9 @@
         "description": "The theme was 'Casting Flowers Over Angkor Wat'. The challenge involved two robots, a rabbit and an elephant, working together to toss rings onto poles.",
         "details": "Rank 5 and First Runners-Up in MathWorks Modeling Award",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon_2023.jpg",
-          "/src/assets/robocon2023/Screenshot_2023-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2023/Screenshot_2023-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_23_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_23_2.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_23_3.jpg"
         ]
       },
       {
@@ -1068,9 +1068,8 @@
         "description": "The theme was 'Lagori', a traditional game from southern India. In this game, two teams will design two robots, with each team will take turn playing as seeker and hitter. The seeker's first robot will first break the pile of stones using three small balls. Then the seeker's second robot will rebuild the pile of stones, but it also carries a ball on its head. The hitter's robot would attempt to throw their own balls to dislodge the ball on the seeker's head, and the round immediately ends once they succeeded. The team scores points based on the number of stones they displaced and then rebuilt, with the teams scoring more points declared the winner.",
         "details": "Placed Thirteenth in the Event",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_22_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_22_2.jpg"
         ]
       },
       {
@@ -1079,9 +1078,7 @@
         "description": "The theme was 'Throwing arrows into pots' by Jimo, China. The game was based on the traditional game of East Asian countries pitch-pot, or throwing arrows to a pot. In this game, each team designs two robots. One robot can pick up arrows and throw them to the five pots located on the field, but is restricted to the outer area of the field. The other robot, in addition to throwing arrows from the outer area, can navigate through both the outer and inner area of the field, rotating pots, blocking throwing attempts of the opponent, or handing leftover arrows on the field to the first robot. Team scores point based on the number of arrows thrown into each pot, but if a team got the arrow to all five pots, they will achieve the K.O victory which immediately ends the game.",
         "details": "Overall Rank 14",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_21_1.jpg"
         ]
       },
       {
@@ -1090,9 +1087,7 @@
         "description": "The challenge was to play rugby 7's with two robots and five obstacles as defending players.",
         "details": "Judges' Special Award, Placed 6th overall",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_20_1.jpg"
         ]
       },
       {
@@ -1101,9 +1096,7 @@
         "description": "The theme 'Sharing the Knowledge' was based on Mongolia's tradition of a message relay system. ",
         "details": "Ranked 3rd in MathWorks Modeling Competition in National Robocon 2019",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon_2019.jpg",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_19_1.jpg"
         ]
       },
       {
@@ -1112,9 +1105,7 @@
         "description": "The theme for Robocon 2018 declared as ném còn (throwing shuttlecock). The goal of the game is to throw the shuttlecocks through the ring at height.",
         "details": "4th rank at National Robocon 2018 and Bagged Best Aesthetic Robot Award in National Robocon 2018 among 115 teams.",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_18_1.jpg"
         ]
       },
       {
@@ -1123,9 +1114,9 @@
         "description": "The theme revolves around the word 'asobi' (play), which is also a fundamental philosophy behind Robocon. In the match, each team will be given a set of discs which they are supposed to land on the poles of different height and at different distances. Team which will be able to land at least one disc on each pole will be declared as the winner of the game.",
         "details": "Winner of National Robocon 2017 among 115 teams. 1st Prize with One lakh prize money. Balkrishna memorial award: Rolling trophy for winning this year national robocon 2017. Bagged Best Idea award, fastest job completing robot. 1st prize for best usage of Mathworks Tools in National Robocon 2017 with 35 Thousands cash prize and subsequently represented India at Internationals.Nagase Award: Special Sponsor award given to Top 6 team among 19 team in International Robocon 2017 held at Tokyo, Japan. Best Lovely Robot: Online polling taken across 18 countries in live contest. Our robot won maximum poll.",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon17-1.jpg",
-          "https://www.coeprobotics.com/assets/Competitions/Robocon17-2.jpg",
-          "https://www.coeprobotics.com/assets/Competitions/Robocon17-3.jpg"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_17_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_17_2.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_17_3.jpg"
         ]
       },
       {
@@ -1134,9 +1125,8 @@
         "description": "The concept behind the theme is the utilization of renewable energy sources. The match is between 2 teams (viz. red and blue), each team consisting of two robots. ",
         "details": "COEP secured the first runner-up position in the national competition, Fastest Task Comleting Robot, Best Manual Operator Award, Winner of MATLAB Task Simulation Competition. ",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon2016.jpg",
-          "https://www.coeprobotics.com/assets/Competitions/Robocon-2016.jpg",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_16_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_16_2.jpg"
         ]
       },
       {
@@ -1145,9 +1135,8 @@
         "description": "In the contest, the 2 teams (red and blue) had to play the game of badminton against each other. Each team made 2 robots to play a normal doubles badminton game.",
         "details": "Best Manual Operator Award and Best Innovative Design Award by ROHM - Robocon 2015",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon_2015.jpg",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_15_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_15_2.jpg"
         ]
       },
       {
@@ -1156,9 +1145,7 @@
         "description": " The Theme for Robocon 2014 declared by India was 'A Salute for Parenthood'",
         "details": "Best Innovative Design Award",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_14_1.jpg"
         ]
       },
       {
@@ -1167,9 +1154,9 @@
         "description": "The Theme for Robocon 2013 declared by VTV was 'The Green Planet'",
         "details": "Best Innovative Design Award and One of 2 teams in India to complete task in Robocon 2013",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_13_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_13_2.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_13_3.jpg"
         ]
       },
       {
@@ -1178,9 +1165,9 @@
         "description": " The Theme for Robocon 2012 declared by Hong Kong was in Pursuit of Peace and Prosperity. ",
         "details": "Second Runner Up in Robocon 2012",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_12_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_12_2.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_12_3.jpg"
         ]
       },
       {
@@ -1189,9 +1176,8 @@
         "description": "The Theme for Robocon 2011 declared by Thailand was Krathong, Lighting Happiness with Friendship.",
         "details": "",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_11_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_11_2.jpg"
         ]
       },
       {
@@ -1200,9 +1186,8 @@
         "description": "The Theme for Robocon 2010 declared by Egypt was Robo-Pharaohs Build Pyramids.",
         "details": "",
         "images": [
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.53.54_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
-          "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_10_1.jpg",
+          "https://www.coeprobotics.com/assets/Robocon/Robocon_10_2.jpg"
         ]
       },
       {
