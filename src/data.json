@@ -1057,7 +1057,7 @@
         "description": "The theme was 'Casting Flowers Over Angkor Wat'. The challenge involved two robots, a rabbit and an elephant, working together to toss rings onto poles.",
         "details": "Rank 5 and First Runners-Up in MathWorks Modeling Award",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon_2023",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon_2023.jpg",
           "/src/assets/robocon2023/Screenshot_2023-10-21_12.55.57_PM.png",
           "/src/assets/robocon2023/Screenshot_2023-10-21_12.56.52_PM.png"
         ]
@@ -1101,7 +1101,7 @@
         "description": "The theme 'Sharing the Knowledge' was based on Mongolia's tradition of a message relay system. ",
         "details": "Ranked 3rd in MathWorks Modeling Competition in National Robocon 2019",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon_2019",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon_2019.jpg",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
         ]
@@ -1123,9 +1123,9 @@
         "description": "The theme revolves around the word 'asobi' (play), which is also a fundamental philosophy behind Robocon. In the match, each team will be given a set of discs which they are supposed to land on the poles of different height and at different distances. Team which will be able to land at least one disc on each pole will be declared as the winner of the game.",
         "details": "Winner of National Robocon 2017 among 115 teams. 1st Prize with One lakh prize money. Balkrishna memorial award: Rolling trophy for winning this year national robocon 2017. Bagged Best Idea award, fastest job completing robot. 1st prize for best usage of Mathworks Tools in National Robocon 2017 with 35 Thousands cash prize and subsequently represented India at Internationals.Nagase Award: Special Sponsor award given to Top 6 team among 19 team in International Robocon 2017 held at Tokyo, Japan. Best Lovely Robot: Online polling taken across 18 countries in live contest. Our robot won maximum poll.",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon17-1",
-          "https://www.coeprobotics.com/assets/Competitions/Robocon17-2",
-          "https://www.coeprobotics.com/assets/Competitions/Robocon17-3"
+          "https://www.coeprobotics.com/assets/Competitions/Robocon17-1.jpg",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon17-2.jpg",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon17-3.jpg"
         ]
       },
       {
@@ -1134,8 +1134,8 @@
         "description": "The concept behind the theme is the utilization of renewable energy sources. The match is between 2 teams (viz. red and blue), each team consisting of two robots. ",
         "details": "COEP secured the first runner-up position in the national competition, Fastest Task Comleting Robot, Best Manual Operator Award, Winner of MATLAB Task Simulation Competition. ",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon2016",
-          "https://www.coeprobotics.com/assets/Competitions/Robocon-2016",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon2016.jpg",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon-2016.jpg",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
         ]
       },
@@ -1145,7 +1145,7 @@
         "description": "In the contest, the 2 teams (red and blue) had to play the game of badminton against each other. Each team made 2 robots to play a normal doubles badminton game.",
         "details": "Best Manual Operator Award and Best Innovative Design Award by ROHM - Robocon 2015",
         "images": [
-          "https://www.coeprobotics.com/assets/Competitions/Robocon_2015",
+          "https://www.coeprobotics.com/assets/Competitions/Robocon_2015.jpg",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.55.57_PM.png",
           "/src/assets/robocon2022/Screenshot_2022-10-21_12.56.52_PM.png"
         ]
@@ -2057,32 +2057,32 @@
    "Mindspark": {
     "imageArray": [
       {
-        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-1",
+        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-1.jpg",
         "title": "Robotica Event Showcase",
         "description": "A dynamic display of cutting-edge robotics innovations during MindSpark, highlighting the technical prowess of participating teams and their groundbreaking robotic solutions."
       },
       {
-        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-4",
+        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-4.jpg",
         "title": "Competition Arena",
         "description": "The intense competition zone where robots battle it out in challenges like Robo Wars, Bot Wrestling, and Search & Destroy, demonstrating precision, strategy, and engineering excellence."
       },
       {
-        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-5",
+        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-5.jpg",
         "title": "Technical Workshops",
         "description": "Interactive workshops and demonstration sessions where students learn from industry experts, explore emerging technologies, and gain hands-on experience in robotics and automation."
       },
       {
-        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-1",
+        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-1.jpg",
         "title": "Robotica Event Showcase",
         "description": "A dynamic display of cutting-edge robotics innovations during MindSpark, highlighting the technical prowess of participating teams and their groundbreaking robotic solutions."
       },
       {
-        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-4",
+        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-4.jpg",
         "title": "Competition Arena",
         "description": "The intense competition zone where robots battle it out in challenges like Robo Wars, Bot Wrestling, and Search & Destroy, demonstrating precision, strategy, and engineering excellence."
       },
       {
-        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-5",
+        "src": "https://www.coeprobotics.com/assets/Organizing/Mindspark/MS-5.jpg",
         "title": "Technical Workshops",
         "description": "Interactive workshops and demonstration sessions where students learn from industry experts, explore emerging technologies, and gain hands-on experience in robotics and automation."
       }
@@ -2104,9 +2104,9 @@
   },
     "Robotex": {
       "imageArray": [
-        "https://www.coeprobotics.com/assets/Organizing/Robotex/logo",
-        "https://www.coeprobotics.com/assets/Organizing/Robotex/pic-2",
-        "https://www.coeprobotics.com/assets/Organizing/Robotex/Pic-1"
+        "https://www.coeprobotics.com/assets/Organizing/Robotex/logo.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Robotex/pic-2.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Robotex/Pic-1.jpg"
       ],
       "sections": [
         {
@@ -2165,19 +2165,19 @@
     },
     "Social Outreach": {
       "imageArray": [
-        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture1",
-        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture2",
-        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture3",
-        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture4",
-        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture5",
-        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture6"
+        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture1.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture2.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture3.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture4.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture5.jpg",
+        "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture6.jpg"
       ],
       "sections": [
         {
           "title": "Community Outreach Program – Mangaon, Raigad",
           "date": "October 15th, 2022",
           "location": "Mangaon, Raigad",
-          "image": "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture1",
+          "image": "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture1.jpg",
           "content": "A transformative initiative to bridge technological gaps in rural communities:\n Collaborated with NSS at COEP\n Demonstrated advanced robots: NAO-6 humanoid, RoboSapien, Genibo\n Provided hands-on interaction with cutting-edge robotics\n Inspired local students about potential of AI and robotics\n Connected technical community with rural areas",
           "facilitators": "Koustubh Anturkar\nChinmay Patil\nAyush Amborkar\nAtharv Neglur"
         },
@@ -2185,7 +2185,7 @@
           "title": "Mathematics Day Robotics Demonstration",
           "date": "December 22nd, 2022",
           "location": "COEP",
-          "image": "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture2",
+          "image": "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture2.jpg",
           "content": "Exploring the intersection of mathematics and robotics:\n Showcased NAO humanoid robot, Genibo robot, and Drone\n Demonstrated mathematical principles in robotics\n Highlighted applications in various industries\n Inspired students to explore STEM careers\n Provided interactive learning experience",
           "facilitators": "Ayush Amborkar\nAtharv Neglur"
         },
@@ -2193,7 +2193,7 @@
           "title": "Electronics and Robotics Workshops",
           "date": "June-July 2024",
           "location": "Camp Education Society School",
-          "image": "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture3",
+          "image": "https://www.coeprobotics.com/assets/Organizing/Soical Outreach/Picture3.jpg",
           "content": "Empowering 9th and 10th-grade students with technological knowledge:\n Conducted 2-3 weekly sessions\n Covered electronics and robotics fundamentals\n Provided hands-on learning experiences\n Introduced sensor-based applications\n Motivated students towards STEM disciplines",
           "facilitators": "Tejas Nirwan\nLaya Kshetrapal\nKavish Patil\nSaatvika Udayakumar\nDhiraj Patil"
         }
