@@ -26,7 +26,7 @@ const AwardCard = ({ award, index }) => (
         <motion.img
           src={award.image}
           alt={award.name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
         />

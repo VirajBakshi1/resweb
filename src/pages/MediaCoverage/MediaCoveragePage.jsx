@@ -52,8 +52,8 @@ const ArticleCard = ({ article, index }) => {
             {/* Title with icon */}
             <div className="flex items-center space-x-2">
               <Newspaper className="w-5 h-5 text-cyan-400" />
-              <h3 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 
-                to-purple-400 bg-clip-text text-transparent group-hover:bg-gradient-to-l 
+              <h3 className="text-xl font-bold bg-gradient-to-r from-cyan-100 via-blue-100 
+                to-purple-100 bg-clip-text text-transparent  group-hover:bg-gradient-to-l 
                 transition-all duration-1000">
                 {article.title}
               </h3>

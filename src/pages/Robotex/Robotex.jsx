@@ -26,7 +26,7 @@ const PhotoWithInfo = ({ image, title, description }) => {
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-cover transition-all duration-500
+            className="w-full h-full object-contain transition-all duration-500
               transform group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent 
