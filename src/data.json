@@ -7,7 +7,7 @@
           "title": "Robot Study Club",
           "description": "The Robot Study Club (RSC) of COEP Technological University is a hub of innovation, where students design, build, and compete with cutting-edge robots. From autonomous systems to AI-driven machines, we push the limits of technology. RSC has earned national and international recognition in competitions like RoboCon, ABU RoboCon, and Techfest, proving our expertise in robotics and automation. Join us as we shape the future of intelligent machines!",
           "buttonText": "Explore RSC",
-          "image": "https://www.coeprobotics.com/assets/Home/home_8.jpg",
+          "image": "https://www.coeprobotics.com/assets/Home/home_2.jpg",
           "link": "/rsc"
         },
         {
@@ -59,6 +59,7 @@
       {
         "sec": "Hridhay Kutty(BTech- Mech)",
         "jointsec": "Atharva Neglur (BTech- Instru)",
+        "image":"https://www.coeprobotics.com/assets/secretaries/amey-hande.jpg",
         "year": "2024-2025",
         "socials": {
             "sec_linkedin": "https://www.linkedin.com/in/hridhay-kutty-56483a239/",
@@ -68,6 +69,7 @@
       {
           "sec": "Amey Hande (BTech- Mech)",
           "jointsec": "Shubham More (BTech- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/amey-hande.jpg",
           "year": "2023-2024",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/amey-hande-453474207/",
@@ -77,6 +79,7 @@
       {
           "sec": "Anirudh Nallawar (BTech- Instru)",
           "jointsec": "Rushikesh Pabalkar (BTech- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/nallawar.jpg",
           "year": "2022-2023",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/anirudh-nallawar/",
@@ -86,6 +89,7 @@
       {
           "sec": "Anirudha Gaikwad (BTech- E&TC)",
           "jointsec": "Arya Arasan (BTech- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/anirudha.jpg",
           "year": "2021-2022",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/anirudha-gaikwad-62b9ba152/",
@@ -95,6 +99,7 @@
       {
           "sec": "Yash Deshmukh (BTech- Mech)",
           "jointsec": "Aditya Jadhav (BTech- E&TC)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/yash.jpg",
           "year": "2020-2021",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/yashdeshmukh2601/",
@@ -104,6 +109,7 @@
       {
           "sec": "Rasika Vibhute (BTech- Mech)",
           "jointsec": "Hrishikesh Nirgude (BTech- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/rasika.jpg",
           "year": "2019-2020",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/rasika-vibhute-10b106210/",
@@ -113,6 +119,7 @@
       {
           "sec": "Bhushan Rane (BTech- Elect)",
           "jointsec": "",
+          "image":"https://www.coeprobotics.com/assets/secretaries/bhushan.jpg",
           "year": "2018-2019",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/bhushanrane/",
@@ -122,6 +129,7 @@
       {
           "sec": "Aashish Sonawane (BTech- E&TC)",
           "jointsec": "Soham Bulge (BTech- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/aashish.jpg",
           "year": "2017-2018",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/aashish-sonawane-a09223146/",
@@ -131,6 +139,7 @@
       {
           "sec": "Anuj Phegde (BTech- E&TC)",
           "jointsec": "Sanket Saravade (BTech- E&TC)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/om.jpg",
           "year": "2016-2017",
           "socials": {
               "sec_linkedin": "",
@@ -140,6 +149,7 @@
       {
           "sec": "Amit Kharat (BTech- E&TC)",
           "jointsec": "Rahul Pakhare (BTech- E&TC)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/amit.jpg",
           "year": "2015-2016",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/amit-kharat-57a78791/",
@@ -149,6 +159,7 @@
       {
           "sec": "Om Naik (BTech- Mech)",
           "jointsec": "Shivraj Wabhale (BTech- IT)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/om.jpg",
           "year": "2014-2015",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/omnaik/",
@@ -158,6 +169,7 @@
       {
           "sec": "Sagar Jadhav (BTech- Mech)",
           "jointsec": "Dhiraj Jangid (BTech- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/sagar.jpg",
           "year": "2013-2014",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/sagar-rajendra-jadhav-6ab80374/",
@@ -167,6 +179,7 @@
       {
           "sec": "Ajeet Pawar (BTech- Mech)",
           "jointsec": "Pratik Deshmukh (BTech- E&TC)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/ajeet.jpg",
           "year": "2012-2013",
           "socials": {
               "sec_linkedin": "",
@@ -176,6 +189,7 @@
       {
           "sec": "Manjiri Katmore (BTech- Mech)",
           "jointsec": "Sarang Khandekar (BTech- E&TC)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/manjiri.jpg",
           "year": "2011-2012",
           "socials": {
               "sec_linkedin": "",
@@ -185,6 +199,7 @@
       {
           "sec": "Pawan Badade (BTech- Mech)",
           "jointsec": "",
+          "image":"https://www.coeprobotics.com/assets/secretaries/pawan.jpg",
           "year": "2010-2011",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/pawan-badade/",
@@ -194,6 +209,7 @@
       {
           "sec": "Akshay Phatak (BTech- E&TC)",
           "jointsec": "Pushkar Nandkar (BTech- E&TC)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/akshay.jpg",
           "year": "2009-2010",
           "socials": {
               "sec_linkedin": "",
@@ -203,6 +219,7 @@
       {
           "sec": "Anupam Ingale (BTech- Instru)",
           "jointsec": "Vaibhav Bhosle (BTech- Instru)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/anupam.jpg",
           "year": "2008-2009",
           "socials": {
               "sec_linkedin": "https://www.linkedin.com/in/anupamingale/",
@@ -214,6 +231,7 @@
           "jointsec": "Abhishekh Nagraj (BE-Comp) ",
           "jointsec2":"Vineet Bhatawadekar (BTech- E&TC) ",
           "jointsec3":"Pratap Tokekar (BTech- E&TC) ",
+          "image":"https://www.coeprobotics.com/assets/secretaries/kapeesh.jpg",
           "year": "2006-2008",
           "socials": {
               "sec_linkedin": "",
@@ -225,6 +243,7 @@
       {
           "sec": "Prayag Panchwadkar (BE- Mech)",
           "jointsec": "Varsha Deshmukh (BE- Mech)",
+          "image":"https://www.coeprobotics.com/assets/secretaries/prayag.jpg",
           "year": "2005-2006",
           "socials": {
               "sec_linkedin": "",
@@ -450,6 +469,14 @@
         }
       },
       {
+        "name": "Vedant Kawarkhe",
+        "image": "https://www.coeprobotics.com/assets/team/shreya-muley.jpg",
+        "designation": "Member",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/shreya-muley-2a57482ab"
+        }
+      },
+      {
         "name": "Shishir Shiragave",
         "image": "https://www.coeprobotics.com/assets/team/shishir-shiragave.jpg",
         "designation": "Member",
@@ -600,7 +627,7 @@
         }
       },
       {
-        "name": "Sarthak Dhande",
+        "name": "Omkar Shete",
         "image": "https://www.coeprobotics.com/assets/team/sarthak-dhande.jpg",
         "designation": "Member",
         "socials": {}
